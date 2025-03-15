@@ -1,0 +1,366 @@
+FieldID,Instance,Field,ValueType,Coding,Class_top,Class_detail,Missing,NA_process,Priority,Keep,Imp_name
+31,0,Sex,Categorical single,9,Baseline characteristics,baseline,"0, MCAR",NA,1,NA,Sex
+46,0,Hand grip strength (left),Integer,NA,Measures,physical,"0, MCAR",NA,1,NA,Hand grip strength
+47,0,Hand grip strength (right),Integer,NA,Measures,physical,"0, MCAR",NA,1,NA,Hand grip strength
+48,0,Waist circumference,Continuous,NA,Baseline characteristics,baseline,"0, MCAR",NA,1,NA,Waist circumference
+49,0,Hip circumference,Continuous,NA,Baseline characteristics,baseline,"0, MCAR",NA,1,NA,Hip circumference
+50,0,Standing height,Continuous,NA,Baseline characteristics,baseline,"0, MCAR",NA,1,NA,Standing height
+51,0,Seated height,Continuous,NA,Measures,physical,"0, MCAR",NA,1,NA,Seated height
+78,0,"Heel bone mineral density (BMD) T-score, automated",Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Heel bone mineral density (BMD)
+102,0,"Pulse rate, automated reading",Integer,NA,Measures,physical,"0, MCAR",NA,1,NA,Pulse rate
+670,0,Type of accommodation lived in,Categorical single,100286,Natural and social environment,household,"0, MCAR",NA,1,NA,Type of accommodation
+680,0,Own or rent accommodation lived in,Categorical single,100287,Natural and social environment,household,"2, MAR",NA,1,NA,Own or rent accommodation
+699,0,Length of time at current address,Integer,100290,Natural and social environment,household,"0, MCAR",NA,1,NA,Length of time at current address
+709,0,Number in household,Integer,100291,Natural and social environment,household,"2, MAR",NA,1,NA,Number in household
+728,0,Number of vehicles in household,Categorical single,100293,Natural and social environment,household,"2, MAR",NA,1,NA,Number of vehicles in household
+738,0,Average total household income before tax,Categorical single,100294,Natural and social environment,household,"2, MAR",NA,1,NA,Average total household income before tax
+757,0,Time employed in main current job,Integer,100290,Baseline characteristics,job,"2, MAR",NA,2,NA,Time employed in main current job
+767,0,Length of working week for main job,Integer,100291,Baseline characteristics,job,"2, MAR",NA,2,NA,Length of working week for main job
+777,0,Frequency of travelling from home to job workplace,Integer,100298,Baseline characteristics,job,"2, MAR",NA,2,NA,Frequency of travelling from home to workplace
+796,0,Distance between home and job workplace,Integer,100300,Baseline characteristics,job,"2, MAR",NA,2,NA,Distance between home and workplace
+806,0,Job involves mainly walking or standing,Categorical single,100301,Life,activity,"2, MAR",NA,2,NA,Job involves mainly walking or standing
+816,0,Job involves heavy manual or physical work,Categorical single,100301,Life,activity,"2, MAR",NA,2,NA,Job involves heavy manual or physical work
+826,0,Job involves shift work,Categorical single,100301,Life,activity,"2, MAR",NA,2,NA,Job involves shift work
+845,0,Age completed full time education,Integer,100306,Baseline characteristics,education,"2, MAR",NA,2,NA,Age completed full time education
+864,0,Number of days/week walked 10+ minutes,Integer,100307,Life,activity,"0, MCAR",NA,1,NA,Number of days/week walked 10+ minutes
+874,0,Duration of walks,Integer,100291,Life,activity,"1, manually","0, if 864",2,NA,Duration of walks
+884,0,Number of days/week of moderate physical activity 10+ minutes,Integer,100291,Life,activity,"0, MCAR",NA,1,NA,Number of days/week of moderate physical activity 10+ minutes
+894,0,Duration of moderate activity,Integer,100291,Life,activity,"1, manually","0, if 884",2,NA,Duration of moderate activity
+904,0,Number of days/week of vigorous physical activity 10+ minutes,Integer,100291,Life,activity,"0, MCAR",NA,1,NA,Number of days/week of vigorous physical activity 10+ minutes
+914,0,Duration of vigorous activity,Integer,100291,Life,activity,"1, manually","0, if 904",2,NA,Duration of vigorous activity
+924,0,Usual walking pace,Categorical single,100313,Life,activity,"2, MAR",NA,2,NA,Usual walking pace
+943,0,Frequency of stair climbing in last 4 weeks,Categorical single,100314,Life,activity,"1, manually","0, if 864",2,NA,Frequency of stair climbing in last 4 weeks
+971,0,Frequency of walking for pleasure in last 4 weeks,Categorical single,100317,Life,activity,"1, manually","0, if 6164",2,NA,Frequency of walking for pleasure in last 4 weeks
+981,0,Duration walking for pleasure,Categorical single,100318,Life,activity,"1, manually","0, if 6164",2,NA,Duration walking for pleasure
+991,0,Frequency of strenuous sports in last 4 weeks,Categorical single,100317,Life,activity,"1, manually","0, if 6164",2,NA,Frequency of strenuous sports in last 4 weeks
+1001,0,Duration of strenuous sports,Categorical single,100318,Life,activity,"1, manually","0, if 6164",2,NA,Duration of strenuous sports
+1011,0,Frequency of light DIY in last 4 weeks,Categorical single,100317,Life,activity,"1, manually","0, if 6164",2,NA,Frequency of light DIY in last 4 weeks
+1021,0,Duration of light DIY,Categorical single,100318,Life,activity,"1, manually","0, if 6164",2,NA,Duration of light DIY
+1031,0,Frequency of friend/family visits,Categorical single,100327,Life,mental health,"3, pilot",10740,1,NA,Frequency of friend/family visits
+1050,0,Time spend outdoors in summer,Integer,100329,Life,activity,"0, MCAR",NA,2,NA,Time spend outdoors in summer
+1060,0,Time spent outdoors in winter,Integer,100329,Life,activity,"0, MCAR",NA,2,NA,Time spent outdoors in winter
+1070,0,Time spent watching television (TV),Integer,100329,Life,activity,"0, MCAR",NA,2,NA,Time spent watching television (TV)
+1080,0,Time spent using computer,Integer,100329,Life,activity,"0, MCAR",NA,2,NA,Time spent using computer
+1090,0,Time spent driving,Integer,100329,Life,activity,"0, MCAR",NA,2,NA,Time spent driving
+1100,0,Drive faster than motorway speed limit,Categorical single,100334,Life,activity,"0, MCAR",NA,3,NA,Drive faster than motorway speed limit
+1110,0,Length of mobile phone use,Categorical single,100335,Life,electronic,"0, MCAR",NA,1,NA,Length of mobile phone use
+1120,0,Weekly usage of mobile phone in last 3 months,Categorical single,100336,Life,electronic,"1, manually","0, if 1110",2,NA,Weekly usage of mobile phone in last 3 months
+1130,0,Hands-free device/speakerphone use with mobile phone in last 3 month,Categorical single,100337,Life,electronic,"1, manually","0, if 1110",2,NA,Hands-free device/speakerphone use with mobile phone in last 3 month
+1140,0,Difference in mobile phone use compared to two years previously,Categorical single,100338,Life,electronic,"2, MAR",NA,2,NA,Difference in mobile phone use compared to two years previously
+1150,0,Usual side of head for mobile phone use,Categorical single,100339,Life,electronic,"2, MAR",NA,2,NA,Usual side of head for mobile phone use
+1160,0,Sleep duration,Integer,100291,Life,sleep,"0, MCAR",NA,1,NA,Sleep duration
+1170,0,Getting up in morning,Categorical single,100341,Life,sleep,"0, MCAR",NA,2,NA,Getting up in morning
+1180,0,Daytime dozing / sleeping,Categorical single,100342,Life,sleep,"0, MCAR",NA,2,NA,Daytime dozing / sleeping
+1190,0,Nap during day,Categorical single,100343,Life,sleep,"0, MCAR",NA,2,NA,Nap during day
+1200,0,Sleeplessness / insomnia,Categorical single,100343,Life,sleep,"0, MCAR",NA,1,NA,Sleeplessness / insomnia
+1210,0,Snoring,Categorical single,100345,Life,sleep,"0, MCAR",NA,2,NA,Snoring
+1220,0,Daytime dozing / sleeping (narcolepsy),Categorical single,100346,Life,sleep,"0, MCAR",NA,2,NA,Daytime dozing / sleeping (narcolepsy)
+1239,0,Current tobacco smoking,Categorical single,100347,Life,smoking,"0, MCAR",NA,1,NA,Current tobacco smoking
+1249,0,Past tobacco smoking,Categorical single,100348,Life,smoking,"2, MAR",NA,2,NA,Past tobacco smoking
+1259,0,Smoking/smokers in household,Categorical single,100370,Natural and social environment,smoking,"2.2, MAR, meaningful",NA,2,NA,Smoking/smokers in household
+1269,0,Exposure to tobacco smoke at home,Integer,100291,Natural and social environment,smoking,"2.2, MAR, meaningful",NA,2,NA,Exposure to tobacco smoke at home
+1279,0,Exposure to tobacco smoke outside home,Integer,100291,Natural and social environment,smoking,"2.2, MAR, meaningful",NA,2,NA,Exposure to tobacco smoke outside home
+1289,0,Cooked vegetable intake,Integer,100373,Life,diet,"0, MCAR",NA,1,NA,Cooked vegetable intake
+1299,0,Salad / raw vegetable intake,Integer,100373,Life,diet,"0, MCAR",NA,1,NA,Salad / raw vegetable intake
+1309,0,Fresh fruit intake,Integer,100373,Life,diet,"0, MCAR",NA,1,NA,Fresh fruit intake
+1319,0,Dried fruit intake,Integer,100373,Life,diet,"0, MCAR",NA,1,NA,Dried fruit intake
+1329,0,Oily fish intake,Categorical single,100377,Life,diet,"0, MCAR",NA,1,NA,Oily fish intake
+1339,0,Non-oily fish intake,Categorical single,100377,Life,diet,"0, MCAR",NA,1,NA,Non-oily fish intake
+1349,0,Processed meat intake,Categorical single,100377,Life,diet,"0, MCAR",NA,1,NA,Processed meat intake
+1359,0,Poultry intake,Categorical single,100377,Life,diet,"0, MCAR",NA,1,NA,Poultry intake
+1369,0,Beef intake,Categorical single,100377,Life,diet,"0, MCAR",NA,1,NA,Beef intake
+1379,0,Lamb/mutton intake,Categorical single,100377,Life,diet,"0, MCAR",NA,1,NA,Lamb/mutton intake
+1389,0,Pork intake,Categorical single,100377,Life,diet,"0, MCAR",NA,1,NA,Pork intake
+1408,0,Cheese intake,Categorical single,100377,Life,diet,"0, MCAR",NA,1,NA,Cheese intake
+1418,0,Milk type used,Categorical single,100387,Life,diet,"0, MCAR",NA,1,NA,Milk type used
+1428,0,Spread type,Categorical single,100388,Life,diet,"0, MCAR",NA,1,NA,Spread type
+1438,0,Bread intake,Integer,100373,Life,diet,"0, MCAR",NA,1,NA,Bread intake
+1448,0,Bread type,Categorical single,100391,Life,diet,"0, MCAR",NA,2,NA,Bread type
+1458,0,Cereal intake,Integer,100373,Life,diet,"0, MCAR",NA,1,NA,Cereal intake
+1468,0,Cereal type,Categorical single,100393,Life,diet,"0, MCAR",NA,2,NA,Cereal type
+1478,0,Salt added to food,Categorical single,100394,Life,diet,"0, MCAR",NA,1,NA,Salt added to food
+1488,0,Tea intake,Integer,100373,Life,diet,"0, MCAR",NA,1,NA,Tea intake
+1508,0,Coffee type,Categorical single,100397,Life,diet,"0, MCAR",NA,2,NA,Coffee type
+1518,0,Hot drink temperature,Categorical single,100398,Life,diet,"0, MCAR",NA,1,NA,Hot drink temperature
+1528,0,Water intake,Integer,100373,Life,diet,"0, MCAR",NA,1,NA,Water intake
+1538,0,Major dietary changes in the last 5 years,Categorical single,100400,Life,diet,"0, MCAR",NA,3,NA,Major dietary changes in the last 5 years
+1548,0,Variation in diet,Categorical single,100401,Life,diet,"3, pilot",NA,3,NA,Variation in diet
+1558,0,Alcohol intake frequency.,Categorical single,100402,Life,alcohol,"0, MCAR",NA,1,NA,Alcohol intake frequency.
+1568,0,Average weekly red wine intake,Integer,100291,Life,alcohol,"1, manually","0, if 1558 more than once a week",2,NA,Average weekly red wine intake
+1578,0,Average weekly champagne plus white wine intake,Integer,100291,Life,alcohol,"1, manually","0, if 1558 more than once a week",2,NA,Average weekly champagne plus white wine intake
+1588,0,Average weekly beer plus cider intake,Integer,100291,Life,alcohol,"1, manually","0, if 1558 more than once a week",2,NA,Average weekly beer plus cider intake
+1598,0,Average weekly spirits intake,Integer,100291,Life,alcohol,"1, manually","0, if 1558 more than once a week",2,NA,Average weekly spirits intake
+1608,0,Average weekly fortified wine intake,Integer,100291,Life,alcohol,"1, manually","0, if 1558 more than once a week",2,NA,Average weekly fortified wine intake
+1618,0,Alcohol usually taken with meals,Categorical single,100416,Life,alcohol,"2, MAR",NA,3,NA,Alcohol usually taken with meals
+1628,0,Alcohol intake versus 10 years previously,Categorical single,100417,Life,alcohol,"2.2, MAR, meaningful",NA,3,NA,Alcohol intake versus 10 years previously
+1717,0,Skin colour,Categorical single,100431,Baseline characteristics,appearance,"0, MCAR",NA,3,NA,Skin colour
+1727,0,Ease of skin tanning,Categorical single,100432,Life,appearance,"0, MCAR",NA,3,NA,Ease of skin tanning
+1747,0,"Hair colour (natural, before greying)",Categorical single,100434,Baseline characteristics,appearance,"0, MCAR",NA,3,NA,Natural hair colour
+1757,0,Facial ageing,Categorical single,100435,Life,appearance,"0, MCAR",NA,3,NA,Facial ageing
+1767,0,Adopted as a child,Categorical single,100349,Natural and social environment,early life,"0, MCAR",NA,1,NA,Adopted as a child
+1920,0,Mood swings,Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,Mood swings
+1930,0,Miserableness,Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,Miserableness
+1940,0,Irritability,Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,Irritability
+1950,0,Sensitivity / hurt feelings,Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,Sensitivity / hurt feelings
+1960,0,Fed-up feelings,Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,Fed-up feelings
+1970,0,Nervous feelings,Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,Nervous feelings
+1980,0,Worrier / anxious feelings,Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,Worrier / anxious feelings
+1990,0,Tense / 'highly strung',Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,Tense / 'highly strung'
+2000,0,Worry too long after embarrassment,Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,Worry too long after embarrassment
+2010,0,Suffer from 'nerves',Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,Suffer from 'nerves'
+2020,0,"Loneliness, isolation",Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,"Loneliness, isolation"
+2030,0,Guilty feelings,Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,Guilty feelings
+2040,0,Risk taking,Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,Risk taking
+2050,0,Frequency of depressed mood in last 2 weeks,Categorical single,100484,Life,mental health,"0, MCAR",NA,1,NA,Frequency of depressed mood in last 2 weeks
+2060,0,Frequency of unenthusiasm / disinterest in last 2 weeks,Categorical single,100484,Life,mental health,"0, MCAR",NA,1,NA,Frequency of unenthusiasm / disinterest in last 2 weeks
+2070,0,Frequency of tenseness / restlessness in last 2 weeks,Categorical single,100484,Life,mental health,"0, MCAR",NA,1,NA,Frequency of tenseness / restlessness in last 2 weeks
+2080,0,Frequency of tiredness / lethargy in last 2 weeks,Categorical single,100484,Life,mental health,"0, MCAR",NA,1,NA,Frequency of tiredness / lethargy in last 2 weeks
+2090,0,"Seen doctor (GP) for nerves, anxiety, tension or depression",Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,"Seen doctor (GP) for nerves, anxiety, tension or depression"
+2100,0,"Seen a psychiatrist for nerves, anxiety, tension or depression",Categorical single,100349,Life,mental health,"0, MCAR",NA,1,NA,"Seen a psychiatrist for nerves, anxiety, tension or depression"
+2110,0,Able to confide,Categorical single,100501,Life,mental health,"0, MCAR",NA,1,NA,Able to confide
+2207,0,Wears glasses or contact lenses,Categorical single,100352,Life,eyesight,"0, MCAR",NA,2,NA,Wears glasses or contact lenses
+2217,0,Age started wearing glasses or contact lenses,Integer,100291,Life,eyesight,"2, MAR",NA,2,NA,Age started wearing glasses or contact lenses
+2227,0,Other eye problems,Categorical single,100352,Measures,eyesight,"0, MCAR",NA,1,NA,Other eye problems
+2237,0,Plays computer games,Categorical single,100639,Life,electronic,"0, MCAR",NA,1,NA,Plays computer games
+2247,0,Hearing difficulty/problems,Categorical single,100631,Measures,hearing,"0, MCAR",NA,1,NA,Hearing difficulty/problems
+2257,0,Hearing difficulty/problems with background noise,Categorical single,100349,Measures,hearing,"2, MAR",2247,2,NA,Hearing difficulty/problems
+2267,0,Use of sun/uv protection,Categorical single,100536,Life,activity,"0, MCAR",NA,2,NA,Use of sun/uv protection
+2277,0,Frequency of solarium/sunlamp use,Integer,100537,Life,activity,"0, MCAR",NA,2,NA,Frequency of solarium/sunlamp use
+2316,0,Wheeze or whistling in the chest in last year,Categorical single,100349,Measures,feeling,"0, MCAR",NA,1,NA,Wheeze or whistling in the chest in last year
+2335,0,Chest pain or discomfort,Categorical single,100349,Measures,feeling,"0, MCAR",NA,1,NA,Chest pain or discomfort
+2395,0,Hair/balding pattern,Categorical single,100572,Life,appearance,"2, MAR",NA,2,NA,Hair/balding pattern
+2405,0,Number of children fathered,Integer,100291,Natural and social environment,household,"2, MAR",NA,2,NA,Number of children fathered
+2624,0,Frequency of heavy DIY in last 4 weeks,Categorical single,100317,Life,activity,"1, manually","0, if 6164",2,NA,Frequency of heavy DIY in last 4 weeks
+2634,0,Duration of heavy DIY,Categorical single,100318,Life,activity,"1, manually","0, if 6164",2,NA,Duration of heavy DIY
+2644,0,"Light smokers, at least 100 smokes in lifetime",Categorical single,100349,Life,smoking,"2, MAR",NA,2,NA,"Light smokers, at least 100 smokes in lifetime"
+2654,0,Non-butter spread type details,Categorical single,100389,Life,diet,"2, MAR",NA,2,NA,Non-butter spread type details
+2664,0,Reason for reducing amount of alcohol drunk,Categorical single,100418,Life,alcohol,"2, MAR",NA,2,NA,Reason for reducing amount of alcohol drunk
+2724,0,Had menopause,Categorical single,100579,Life,other,"2, MAR",NA,2,NA,Had menopause
+2774,0,"Ever had stillbirth, spontaneous miscarriage or termination",Categorical single,100349,Natural and social environment,early life,"3, MAR",NA,1,NA,Termination of pregnancy
+2867,0,Age started smoking in former smokers,Integer,100291,Life,smoking,"2, MAR",NA,2,NA,Age started smoking in former smokers
+2877,0,Type of tobacco previously smoked,Categorical single,100351,Life,smoking,"2, MAR",NA,2,NA,Type of tobacco previously smoked
+2887,0,Number of cigarettes previously smoked daily,Integer,100353,Life,smoking,"2, MAR",NA,2,NA,Number of cigarettes previously smoked daily
+2897,0,Age stopped smoking,Integer,100291,Life,smoking,"2, MAR",NA,2,NA,Age stopped smoking
+2907,0,Ever stopped smoking for 6+ months,Categorical single,100349,Life,smoking,"2, MAR",NA,2,NA,Ever stopped smoking for 6+ months
+2926,0,Number of unsuccessful stop-smoking attempts,Integer,100291,Life,smoking,"2, MAR",NA,2,NA,Number of unsuccessful stop-smoking attempts
+2956,0,General pain for 3+ months,Categorical single,100349,Measures,feeling,"1, manually",NA,1,NA,General pain for 3+ months
+3062,0,Forced vital capacity (FVC),Continuous,NA,Measures,physical,"0, MCAR",NA,1,NA,Forced vital capacity (FVC)
+3063,0,Forced expiratory volume in 1-second (FEV1),Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Forced expiratory volume in 1-second (FEV1)
+3064,0,Peak expiratory flow (PEF),Integer,NA,Measures,physical,"0, MCAR",NA,2,NA,Peak expiratory flow (PEF)
+3077,0,Seating box height,Categorical single,100262,Measures,physical,"0, MCAR",NA,1,NA,Seating box height
+3081,0,Foot measured for bone density,Categorical single,24,Measures,physical,"0, MCAR",NA,3,NA,Foot measured for bone density
+3082,0,Fractured heel,Categorical single,100267,Measures,physical,"0, MCAR",NA,1,NA,Fractured heel
+3143,0,Ankle spacing width,Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Ankle spacing width
+3144,0,"Heel Broadband ultrasound attenuation, direct entry",Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Heel Broadband ultrasound attenuation
+3147,0,"Heel quantitative ultrasound index (QUI), direct entry",Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Heel quantitative ultrasound index (QUI)
+3148,0,Heel bone mineral density (BMD),Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Heel bone mineral density (BMD)
+3393,0,Hearing aid user,Categorical single,100352,Measures,hearing,"2, MAR",2247,3,NA,Hearing aid user
+3404,0,Neck/shoulder pain for 3+ months,Categorical single,100349,Measures,feeling,"1, manually",NA,2,NA,Neck/shoulder pain for 3+ months
+3414,0,Hip pain for 3+ months,Categorical single,100349,Measures,feeling,"1, manually",NA,2,NA,Hip pain for 3+ months
+3426,0,Job involves night shift work,Categorical single,100301,Life,activity,"2, MAR",NA,2,NA,Back pain for 3+ months
+3436,0,Age started smoking in current smokers,Integer,100291,Life,smoking,"2, MAR",NA,2,NA,Age started smoking in current smokers
+3446,0,Type of tobacco currently smoked,Categorical single,100351,Life,smoking,"2, MAR",NA,2,NA,Type of tobacco currently smoked
+3456,0,Number of cigarettes currently smoked daily (current cigarette smokers),Integer,100355,Life,smoking,"2, MAR",NA,2,NA,Number of cigarettes currently smoked daily
+3466,0,Time from waking to first cigarette,Categorical single,100356,Life,smoking,"2, MAR",NA,2,NA,Time from waking to first cigarette
+3506,0,Smoking compared to 10 years previous,Categorical single,100360,Life,smoking,"2, MAR",NA,2,NA,Smoking compared to 10 years previous
+3571,0,Back pain for 3+ months,Categorical single,100349,Measures,feeling,"1, manually",NA,2,NA,Back pain for 3+ months
+3606,0,Chest pain or discomfort walking normally,Categorical single,100563,Measures,feeling,"1, manually",2335,2,NA,Chest pain or discomfort walking normally
+3616,0,Chest pain due to walking ceases when standing still,Categorical single,100349,Measures,feeling,"1, manually",2335,2,NA,Chest pain due to walking ceases when standing still
+3637,0,Frequency of other exercises in last 4 weeks,Categorical single,100317,Life,activity,"1, manually","0, if 6164",2,NA,Frequency of other exercises in last 4 weeks
+3647,0,Duration of other exercises,Categorical single,100318,Life,activity,"1, manually","0, if 6164",2,NA,Duration of other exercises
+3710,0,Length of menstrual cycle,Integer,100582,Life,other,"2, MAR",NA,1,NA,Length of menstrual cycle
+3731,0,Former alcohol drinker,Categorical single,100352,Life,alcohol,"2, MAR",NA,1,NA,Former alcohol drinker
+3741,0,Stomach/abdominal pain for 3+ months,Categorical single,100349,Measures,feeling,"1, manually",NA,2,NA,Stomach/abdominal pain for 3+ months
+3751,0,Chest pain or discomfort when walking uphill or hurrying,Categorical single,100564,Measures,feeling,"1, manually",2335,2,NA,Chest pain or discomfort when walking uphill or hurrying
+3773,0,Knee pain for 3+ months,Categorical single,100349,Measures,feeling,"1, manually",NA,2,NA,Knee pain for 3+ months
+3799,0,Headaches for 3+ months,Categorical single,100349,Measures,feeling,"1, manually",NA,2,NA,Headaches for 3+ months
+3859,0,Reason former drinker stopped drinking alcohol,Categorical single,100418,Life,alcohol,"2, MAR",NA,2,NA,Reason former drinker stopped drinking alcohol
+4067,0,Facial pains for 3+ months,Categorical single,100349,Measures,feeling,"1, manually",NA,2,NA,Facial pains for 3+ months
+4079,0,"Diastolic blood pressure, automated reading",Integer,NA,Measures,physical,"0, MCAR",NA,1,NA,Diastolic blood pressure
+4080,0,"Systolic blood pressure, automated reading",Integer,NA,Measures,physical,"0, MCAR",NA,1,NA,Systolic blood pressure
+4100,0,Ankle spacing width (left),Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Ankle spacing width
+4101,0,Heel broadband ultrasound attenuation (left),Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Heel broadband ultrasound attenuation
+4104,0,"Heel quantitative ultrasound index (QUI), direct entry (left)",Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Heel quantitative ultrasound index (QUI)
+4105,0,Heel bone mineral density (BMD) (left),Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Heel bone mineral density (BMD)
+4106,0,"Heel bone mineral density (BMD) T-score, automated (left)",Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Heel bone mineral density (BMD)
+4119,0,Ankle spacing width (right),Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Ankle spacing width
+4120,0,Heel broadband ultrasound attenuation (right),Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Heel broadband ultrasound attenuation
+4123,0,"Heel quantitative ultrasound index (QUI), direct entry (right)",Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Heel quantitative ultrasound index (QUI)
+4124,0,Heel bone mineral density (BMD) (right),Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Heel bone mineral density (BMD)
+4125,0,"Heel bone mineral density (BMD) T-score, automated (right)",Continuous,NA,Measures,physical,"0, MCAR",NA,3,NA,Heel bone mineral density (BMD)
+4195,0,Pulse wave reflection index,Integer,NA,Measures,physical,"0, MCAR",NA,1,NA,Pulse wave reflection index
+4196,0,Pulse wave peak to peak time,Integer,NA,Measures,physical,"0, MCAR",NA,1,NA,Pulse wave peak to peak time
+4233,0,"Mean signal-to-noise ratio (SNR), (left)",Continuous,7667,Measures,hearing,MNAR,NA,3,NA,Mean signal-to-noise ratio (SNR)
+4244,0,"Mean signal-to-noise ratio (SNR), (right)",Continuous,7667,Measures,hearing,MNAR,NA,3,NA,Mean signal-to-noise ratio (SNR)
+4407,0,Average monthly red wine intake,Integer,100291,Life,alcohol,-1,"0, if 1558 more than once a week",2,NA,Average monthly red wine intake
+4418,0,Average monthly champagne plus white wine intake,Integer,100291,Life,alcohol,-1,"0, if 1558 more than once a week",2,NA,Average monthly champagne plus white wine intake
+4429,0,Average monthly beer plus cider intake,Integer,100291,Life,alcohol,-1,"0, if 1558 more than once a week",2,NA,Average monthly beer plus cider intake
+4440,0,Average monthly spirits intake,Integer,100291,Life,alcohol,-1,"0, if 1558 more than once a week",2,NA,Average monthly spirits intake
+4451,0,Average monthly fortified wine intake,Integer,100291,Life,alcohol,-1,"0, if 1558 more than once a week",2,NA,Average monthly fortified wine intake
+4462,0,Average monthly intake of other alcoholic drinks,Integer,100291,Life,alcohol,-1,"0, if 1558 more than once a week",2,NA,Average monthly intake of other alcoholic drinks
+4598,0,Ever depressed for a whole week,Categorical single,100349,Life,mental health,MNAR,NA,1,NA,Ever depressed for a whole week
+4609,0,Longest period of depression,Integer,100291,Life,mental health,MNAR,"0, if 4598",1,NA,Longest period of depression
+4620,0,Number of depression episodes,Integer,100291,Life,mental health,MNAR,0. if 4598,1,NA,Number of depression episodes
+4631,0,Ever unenthusiastic/disinterested for a whole week,Categorical single,100349,Life,mental health,MNAR,NA,1,NA,Ever unenthusiastic/disinterested for a whole week
+4642,0,Ever manic/hyper for 2 days,Categorical single,100349,Life,mental health,MNAR,NA,1,NA,Ever manic/hyper for 2 days
+4653,0,Ever highly irritable/argumentative for 2 days,Categorical single,100349,Life,mental health,MNAR,NA,1,NA,Ever highly irritable/argumentative for 2 days
+4674,0,Private healthcare,Categorical single,100511,Natural and social environment,other,MNAR,NA,2,NA,Private healthcare
+4717,0,Shortness of breath walking on level ground,Categorical single,100349,Measures,feeling,MNAR,NA,1,NA,Shortness of breath walking on level ground
+4728,0,Leg pain on walking,Categorical single,100349,Measures,feeling,MNAR,NA,1,NA,Leg pain on walking
+4792,0,Cochlear implant,Categorical single,100352,Measures,hearing,"2, MAR",2247,3,NA,Cochlear implant
+4803,0,Tinnitus,Categorical single,100635,Measures,hearing,"2, MAR",2247,3,NA,Tinnitus
+4814,0,Tinnitus severity/nuisance,Categorical single,100636,Measures,hearing,"2, MAR",2247,3,NA,Tinnitus
+4825,0,Noisy workplace,Categorical single,100637,Natural and social environment,hearing,"2, MAR",NA,1,NA,Noisy workplace
+4836,0,Loud music exposure frequency,Categorical single,100637,Natural and social environment,hearing,"2, MAR",NA,1,NA,Loud music exposure frequency
+5183,0,Current eye infection,Categorical single,7,Measures,eyesight,MNAR,NA,2,NA,Current eye infection
+5201,0,"logMAR, final (right)",Continuous,NA,Measures,eyesight,MNAR,NA,1,NA,logMAR
+5208,0,"logMAR, final (left)",Continuous,NA,Measures,eyesight,MNAR,NA,1,NA,logMAR
+5221,0,Index of best refractometry result (right),Integer,NA,Measures,eyesight,MNAR,NA,2,NA,Index of best refractometry result
+5254,0,"Intra-ocular pressure, corneal-compensated (right)",Continuous,NA,Measures,eyesight,MNAR,NA,2,NA,Intra-ocular pressure
+5255,0,"Intra-ocular pressure, Goldmann-correlated (right)",Continuous,NA,Measures,eyesight,MNAR,NA,2,NA,Intra-ocular pressure
+5256,0,Corneal hysteresis (right),Continuous,NA,Measures,eyesight,MNAR,NA,2,NA,Corneal hysteresis
+5257,0,Corneal resistance factor (right),Continuous,NA,Measures,eyesight,MNAR,NA,2,NA,Corneal resistance factor
+5262,0,"Intra-ocular pressure, corneal-compensated (left)",Continuous,NA,Measures,eyesight,MNAR,NA,2,NA,Intra-ocular pressure
+5263,0,"Intra-ocular pressure, Goldmann-correlated (left)",Continuous,NA,Measures,eyesight,MNAR,NA,2,NA,Intra-ocular pressure
+5264,0,Corneal hysteresis (left),Continuous,NA,Measures,eyesight,MNAR,NA,2,NA,Corneal hysteresis
+5265,0,Corneal resistance factor (left),Continuous,NA,Measures,eyesight,MNAR,NA,2,NA,Corneal resistance factor
+5276,0,Index of best refractometry result (left),Integer,NA,Measures,eyesight,MNAR,NA,2,NA,Index of best refractometry result
+5364,0,Average weekly intake of other alcoholic drinks,Integer,100291,Life,alcohol,"1, manually","0, if 1558 more than once a week",2,NA,Average weekly intake of other alcoholic drinks
+5375,0,Longest period of unenthusiasm / disinterest,Integer,100291,Life,mental health,"1, manually","0, if 4631",1,NA,Longest period of unenthusiasm / disinterest
+5386,0,Number of unenthusiastic/disinterested episodes,Integer,100291,Life,mental health,"1, manually","0, if 4631",1,NA,Number of unenthusiastic/disinterested episodes
+5452,0,Leg pain when standing still or sitting,Categorical single,100349,Measures,feeling,MNAR,4728,2,NA,Leg pain when standing still or sitting
+5463,0,Leg pain in calf/calves,Categorical single,100349,Measures,feeling,MNAR,4728,2,NA,Leg pain in calf/calves
+5474,0,Leg pain when walking uphill or hurrying,Categorical single,100349,Measures,feeling,MNAR,4728,2,NA,Leg pain on walking
+5485,0,Leg pain when walking normally,Categorical single,100349,Measures,feeling,MNAR,4728,2,NA,Leg pain on walking
+5496,0,Leg pain when walking ever disappears while walking,Categorical single,100349,Measures,feeling,MNAR,4728,2,NA,Leg pain on walking
+5507,0,Leg pain on walking : action taken,Categorical single,100549,Measures,feeling,MNAR,4728,2,NA,Leg pain on walking
+5518,0,Leg pain on walking : effect of standing still,Categorical single,100550,Measures,feeling,MNAR,4728,2,NA,Leg pain on walking
+5663,0,Length of longest manic/irritable episode,Categorical single,100499,Life,mental health,"1, manually","0, if 4653, 4642",1,NA,Length of longest manic/irritable episode
+5674,0,Severity of manic/irritable episodes,Categorical single,100500,Life,mental health,"1, manually","0, if 4653, 4642",1,NA,Severity of manic/irritable episodes
+5959,0,Previously smoked cigarettes on most/all days,Categorical single,100352,Life,smoking,"2, MAR",NA,1,NA,Previously smoked cigarettes on most/all days
+6138,0,Qualifications,Categorical multiple,100305,Baseline characteristics,education,"0, MCAR",NA,1,NA,Qualifications
+6139,0,Gas or solid-fuel cooking/heating,Categorical multiple,100288,Life,household,"3, pilot",NA,3,NA,Gas or solid-fuel cooking/heating
+6140,0,Heating type(s) in home,Categorical multiple,100289,Life,household,"0, MCAR",NA,3,NA,Heating types in home
+6141,0,How are people in household related to participant,Categorical multiple,100292,Natural and social environment,household,"2, MAR",NA,3,NA,How are people in household related to participant
+6142,0,Current employment status,Categorical multiple,100295,Baseline characteristics,baseline,"0, MCAR",NA,1,NA,Current employment status
+6143,0,Transport type for commuting to job workplace,Categorical multiple,100299,Baseline characteristics,job,"2, MAR",NA,2,NA,Transport type for commuting to workplace
+6144,0,"Never eat eggs, dairy, wheat, sugar",Categorical multiple,100385,Life,diet,"3, pilot",NA,1,NA,"Never eat eggs, dairy, wheat, sugar"
+6145,0,"Illness, injury, bereavement, stress in last 2 years",Categorical multiple,100502,Life,mental health,"3, pilot",NA,1,NA,"Illness, injury, bereavement, stress in last 2 years"
+6146,0,Attendance/disability/mobility allowance,Categorical multiple,100510,Natural and social environment,other,"0, MCAR",NA,3,NA,Attendance/disability/mobility allowance
+6147,0,Reason for glasses/contact lenses,Categorical multiple,100514,Measures,eyesight,"2, MAR",NA,2,NA,Reason for glasses/contact lenses
+6156,0,Manic/hyper symptoms,Categorical multiple,100498,Life,mental health,"2, MAR",NA,2,NA,Manic/hyper symptoms
+6157,0,Why stopped smoking,Categorical multiple,100361,Life,smoking,"2, MAR",NA,2,NA,Why stopped smoking
+6158,0,Why reduced smoking,Categorical multiple,100361,Life,smoking,"2, MAR",NA,2,NA,Why reduced smoking
+6159,0,Pain type(s) experienced in last month,Categorical multiple,100553,Measures,feeling,"0, MCAR",NA,2,NA,Pain type(s) experienced in last month
+6160,0,Leisure/social activities,Categorical multiple,100328,Life,activity,"0, MCAR",NA,1,NA,Leisure/social activities
+6162,0,Types of transport used (excluding work),Categorical multiple,100299,Life,activity,"2, MAR",NA,1,NA,Types of transport used (excluding work)
+6164,0,Types of physical activity in last 4 weeks,Categorical multiple,100316,Life,activity,"0, MCAR",NA,1,NA,Types of physical activity in last 4 weeks
+20019,0,Speech-reception-threshold (SRT) estimate (left),Continuous,NA,Measures,physical,"0, MCAR",NA,1,NA,Speech-reception-threshold (SRT) estimate
+20021,0,Speech-reception-threshold (SRT) estimate (right),Continuous,NA,Measures,physical,"0, MCAR",NA,1,NA,Speech-reception-threshold (SRT) estimate
+20022,0,Birth weight,Continuous,NA,Baseline characteristics,baseline,"0, MCAR",NA,3,NA,Birth weight
+20116,0,Smoking status,Categorical single,90,Life,smoking,"0, MCAR",NA,1,NA,Smoking status
+20117,0,Alcohol drinker status,Categorical single,90,Life,alcohol,"0, MCAR",NA,2,NA,Alcohol drinker status
+20121,0,Cascot confidence score,Integer,NA,Life,job,MNAR,NA,3,NA,Cascot confidence score
+20122,0,Bipolar disorder status,Categorical single,100694,Life,mental health,MNAR,NA,1,NA,Bipolar disorder status
+20126,0,Bipolar and major depression status,Categorical single,100695,Life,mental health,MNAR,NA,1,NA,Bipolar and major depression status
+20127,0,Neuroticism score,Integer,NA,Life,mental health,"0, MCAR",NA,3,NA,Neuroticism score
+20150,0,"Forced expiratory volume in 1-second (FEV1), Best measure",Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Forced expiratory volume in 1-second (FEV1)
+20151,0,"Forced vital capacity (FVC), Best measure",Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Forced vital capacity (FVC)
+20153,0,"Forced expiratory volume in 1-second (FEV1), predicted",Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Forced expiratory volume in 1-second (FEV1)
+20154,0,"Forced expiratory volume in 1-second (FEV1), predicted percentage",Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Forced expiratory volume in 1-second (FEV1)
+20160,0,Ever smoked,Categorical single,7,Life,smoking,"0, MCAR",NA,1,NA,Ever smoked
+21000,0,Ethnic background,Categorical single,1001,Baseline characteristics,baseline,"0, MCAR",NA,1,NA,Ethnic background
+21001,0,Body mass index (BMI),Continuous,NA,Baseline characteristics,baseline,"0, MCAR",NA,1,NA,Body mass index (BMI)
+21002,0,Weight,Continuous,NA,Baseline characteristics,baseline,"0, MCAR",NA,1,NA,Weight
+21021,0,Pulse wave Arterial Stiffness index,Continuous,NA,Measures,physical,"0, MCAR",NA,1,NA,Pulse wave Arterial Stiffness index
+21022,0,Age at recruitment,Integer,NA,Baseline characteristics,baseline,"0, MCAR",NA,1,NA,Age at recruitment
+22009,0,Genetic principal components,Continuous,NA,Genetic,genetic,"0, MCAR",NA,3,YES,Genetic principal components
+22021,0,Genetic kinship to other participants,Categorical single,682,Genetic,genetic,"0, MCAR",NA,3,NA,Genetic kinship to other participants
+23099,0,Body fat percentage,Continuous,NA,Measures,physical,"0, MCAR",NA,1,NA,Body fat percentage
+23100,0,Whole body fat mass,Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Whole body fat mass
+23101,0,Whole body fat-free mass,Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Whole body fat-free mass
+23102,0,Whole body water mass,Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Whole body water mass
+23106,0,Impedance of whole body,Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Impedance of whole body
+23127,0,Trunk fat percentage,Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Trunk fat percentage
+23128,0,Trunk fat mass,Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Trunk fat mass
+23129,0,Trunk fat-free mass,Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Trunk fat-free mass
+23130,0,Trunk predicted mass,Continuous,NA,Measures,physical,"0, MCAR",NA,2,NA,Trunk predicted mass
+24003,0,Nitrogen dioxide air pollution; 2010,Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Nitrogen dioxide air pollution
+24004,0,Nitrogen oxides air pollution; 2010,Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Nitrogen oxides air pollution
+24005,0,Particulate matter air pollution (pm10); 2010,Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Particulate matter air pollution (pm10)
+24006,0,Particulate matter air pollution (pm2.5); 2010,Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Particulate matter air pollution (pm2.5)
+24007,0,Particulate matter air pollution (pm2.5) absorbance; 2010,Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Particulate matter air pollution (pm2.5)
+24008,0,Particulate matter air pollution 2.5-10um; 2010,Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Particulate matter air pollution 2.5-10um
+24014,0,Close to major road,Categorical single,7,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Close to major road
+24020,0,Average daytime sound level of noise pollution,Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Daytime noise pollution
+24021,0,Average evening sound level of noise pollution,Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Evening noise pollution
+24022,0,Average night-time sound level of noise pollution,Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Night-time noise pollution
+24500,0,"Greenspace percentage, buffer 1000m",Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Greenspace percentage
+26410,0,Index of Multiple Deprivation (England),Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Index of Multiple Deprivation
+26426,0,Index of Multiple Deprivation (Wales),Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Index of Multiple Deprivation
+26427,0,Index of Multiple Deprivation (Scotland),Continuous,NA,Natural and social environment,Residential,"0, MCAR",NA,1,NA,Index of Multiple Deprivation
+30000,0,White blood cell (leukocyte) count,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,White blood cell count
+30010,0,Red blood cell (erythrocyte) count,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Red blood cell count
+30020,0,Haemoglobin concentration,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Haemoglobin concentration
+30030,0,Haematocrit percentage,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Haematocrit percentage
+30040,0,Mean corpuscular volume,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Mean corpuscular volume
+30050,0,Mean corpuscular haemoglobin,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Mean corpuscular haemoglobin
+30060,0,Mean corpuscular haemoglobin concentration,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Mean corpuscular haemoglobin concentration
+30070,0,Red blood cell (erythrocyte) distribution width,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Red blood cell distribution width
+30080,0,Platelet count,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Platelet count
+30090,0,Platelet crit,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Platelet crit
+30100,0,Mean platelet (thrombocyte) volume,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Mean platelet volume
+30110,0,Platelet distribution width,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Platelet distribution width
+30120,0,Lymphocyte count,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Lymphocyte count
+30130,0,Monocyte count,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Monocyte count
+30140,0,Neutrophill count,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Neutrophill count
+30150,0,Eosinophill count,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Eosinophill count
+30160,0,Basophill count,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Basophill count
+30170,0,Nucleated red blood cell count,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Nucleated red blood cell count
+30180,0,Lymphocyte percentage,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Lymphocyte percentage
+30190,0,Monocyte percentage,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Monocyte percentage
+30200,0,Neutrophill percentage,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Neutrophill percentage
+30210,0,Eosinophill percentage,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Eosinophill percentage
+30220,0,Basophill percentage,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Basophill percentage
+30230,0,Nucleated red blood cell percentage,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Nucleated red blood cell percentage
+30240,0,Reticulocyte percentage,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Reticulocyte percentage
+30250,0,Reticulocyte count,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Reticulocyte count
+30260,0,Mean reticulocyte volume,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Mean reticulocyte volume
+30270,0,Mean sphered cell volume,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Mean sphered cell volume
+30280,0,Immature reticulocyte fraction,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,Immature reticulocyte fraction
+30290,0,High light scatter reticulocyte percentage,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,High light scatter reticulocyte percentage
+30300,0,High light scatter reticulocyte count,Continuous,NA,Measures,Blood,"0, MCAR",indicator,1,NA,High light scatter reticulocyte count
+30500,0,Microalbumin in urine,Continuous,NA,Measures,Urine,"0, MCAR",NA,1,NA,Microalbumin in urine
+30510,0,Creatinine (enzymatic) in urine,Continuous,NA,Measures,Urine,"0, MCAR",NA,1,NA,Creatinine (enzymatic) in urine
+30520,0,Potassium in urine,Continuous,NA,Measures,Urine,"0, MCAR",NA,1,NA,Potassium in urine
+30530,0,Sodium in urine,Continuous,NA,Measures,Urine,"0, MCAR",NA,1,NA,Sodium in urine
+30600,0,Albumin,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Albumin
+30610,0,Alkaline phosphatase,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Alkaline phosphatase
+30620,0,Alanine aminotransferase,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Alanine aminotransferase
+30630,0,Apolipoprotein A,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Apolipoprotein A
+30640,0,Apolipoprotein B,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Apolipoprotein B
+30650,0,Aspartate aminotransferase,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Aspartate aminotransferase
+30660,0,Direct bilirubin,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Direct bilirubin
+30670,0,Urea,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Urea
+30680,0,Calcium,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Calcium
+30690,0,Cholesterol,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Cholesterol
+30700,0,Creatinine,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Creatinine
+30710,0,C-reactive protein,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,C-reactive protein
+30720,0,Cystatin C,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Cystatin C
+30730,0,Gamma glutamyltransferase,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Gamma glutamyltransferase
+30740,0,Glucose,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Glucose
+30750,0,Glycated haemoglobin (HbA1c),Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Glycated haemoglobin (HbA1c)
+30760,0,HDL cholesterol,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,HDL cholesterol
+30770,0,IGF-1,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,IGF-1
+30780,0,LDL direct,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,LDL direct
+30790,0,Lipoprotein A,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Lipoprotein A
+30800,0,Oestradiol,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Oestradiol
+30810,0,Phosphate,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Phosphate
+30820,0,Rheumatoid factor,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Rheumatoid factor
+30830,0,SHBG,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,SHBG
+30840,0,Total bilirubin,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Total bilirubin
+30850,0,Testosterone,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Testosterone
+30860,0,Total protein,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Total protein
+30870,0,Triglycerides,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Triglycerides
+30880,0,Urate,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Urate
+30890,0,Vitamin D,Continuous,NA,Measures,biochemistry,"0, MCAR",indicator,1,NA,Vitamin D

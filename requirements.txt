@@ -1,0 +1,13 @@
+lifelines==0.27.8
+torch==2.1.0
+numpy==1.26.2
+ipython==8.15.0
+matplotlib==3.7.2
+scikit-learn==1.2.2
+lightgbm==4.1.0
+xgboost==1.7.6
+pandas==2.1.1
+seaborn==0.13.2
+tqdm==4.66.1
+scipy==1.11.2
+fitz==1.23.20

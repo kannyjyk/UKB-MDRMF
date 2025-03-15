@@ -1,0 +1,924 @@
+FieldID,Field,ValueType,Instances,Coding,Label
+12673,Heart rate during PWA,Integer,2,NA,1
+12674,Systolic brachial blood pressure during PWA,Integer,2,NA,1
+12675,Diastolic brachial blood pressure during PWA,Integer,2,NA,1
+12676,Peripheral pulse pressure during PWA,Integer,2,NA,1
+12677,Central systolic blood pressure during PWA,Integer,2,NA,1
+12678,Central pulse pressure during PWA,Integer,2,NA,1
+12679,Number of beats in waveform average for PWA,Continuous,2,NA,1
+12680,Central augmentation pressure during PWA,Continuous,2,NA,1
+12681,Augmentation index for PWA,Continuous,2,NA,1
+12682,Cardiac output during PWA,Continuous,2,NA,1
+12683,End systolic pressure during PWA,Continuous,2,NA,1
+12684,End systolic pressure index during PWA,Continuous,2,NA,1
+12685,Total peripheral resistance during PWA,Continuous,2,NA,1
+12686,Stroke volume during PWA,Integer,2,NA,1
+12687,Mean arterial pressure during PWA,Integer,2,NA,1
+12697,Systolic brachial blood pressure,Integer,2,NA,1
+12699,Number of PWA tests performed,Integer,2,NA,1
+12700,Vicorder results plausible,Categorical single,2,7,1
+12702,Cardiac index during PWA,Continuous,2,NA,1
+22420,LV ejection fraction,Integer,2,NA,1
+22421,LV end diastolic volume,Integer,2,NA,1
+22422,LV end systolic volume,Integer,2,NA,1
+22423,LV stroke volume,Integer,2,NA,1
+22424,Cardiac output,Continuous,2,NA,1
+22425,Cardiac index,Continuous,2,NA,1
+22426,Average heart rate,Integer,2,NA,1
+22427,Body surface area,Continuous,2,NA,1
+22670,Minimum carotid IMT (intima-medial thickness) at 120 degrees,Continuous,2,NA,2
+22671,Mean carotid IMT (intima-medial thickness) at 120 degrees,Continuous,2,NA,2
+22672,Maximum carotid IMT (intima-medial thickness) at 120 degrees,Continuous,2,NA,2
+22673,Minimum carotid IMT (intima-medial thickness) at 150 degrees,Continuous,2,NA,2
+22674,Mean carotid IMT (intima-medial thickness) at 150 degrees,Continuous,2,NA,2
+22675,Maximum carotid IMT (intima-medial thickness) at 150 degrees,Continuous,2,NA,2
+22676,Minimum carotid IMT (intima-medial thickness) at 210 degrees,Continuous,2,NA,2
+22677,Mean carotid IMT (intima-medial thickness) at 210 degrees,Continuous,2,NA,2
+22678,Maximum carotid IMT (intima-medial thickness) at 210 degrees,Continuous,2,NA,2
+22679,Minimum carotid IMT (intima-medial thickness) at 240 degrees,Continuous,2,NA,2
+22680,Mean carotid IMT (intima-medial thickness) at 240 degrees,Continuous,2,NA,2
+22681,Maximum carotid IMT (intima-medial thickness) at 240 degrees,Continuous,2,NA,2
+25000,Volumetric scaling from T1 head image to standard space,Continuous,2,NA,3
+25001,Volume of peripheral cortical grey matter (normalised for head size),Continuous,2,NA,3
+25002,Volume of peripheral cortical grey matter,Continuous,2,NA,3
+25003,Volume of ventricular cerebrospinal fluid (normalised for head size),Continuous,2,NA,3
+25004,Volume of ventricular cerebrospinal fluid,Continuous,2,NA,3
+25005,Volume of grey matter (normalised for head size),Continuous,2,NA,3
+25006,Volume of grey matter,Continuous,2,NA,3
+25007,Volume of white matter (normalised for head size),Continuous,2,NA,3
+25008,Volume of white matter,Continuous,2,NA,3
+25009,"Volume of brain, grey+white matter (normalised for head size)",Continuous,2,NA,3
+25010,"Volume of brain, grey+white matter",Continuous,2,NA,3
+25011,Volume of thalamus (left),Continuous,2,NA,3
+25012,Volume of thalamus (right),Continuous,2,NA,3
+25013,Volume of caudate (left),Continuous,2,NA,3
+25014,Volume of caudate (right),Continuous,2,NA,3
+25015,Volume of putamen (left),Continuous,2,NA,3
+25016,Volume of putamen (right),Continuous,2,NA,3
+25017,Volume of pallidum (left),Continuous,2,NA,3
+25018,Volume of pallidum (right),Continuous,2,NA,3
+25019,Volume of hippocampus (left),Continuous,2,NA,3
+25020,Volume of hippocampus (right),Continuous,2,NA,3
+25021,Volume of amygdala (left),Continuous,2,NA,3
+25022,Volume of amygdala (right),Continuous,2,NA,3
+25023,Volume of accumbens (left),Continuous,2,NA,3
+25024,Volume of accumbens (right),Continuous,2,NA,3
+25025,Volume of brain stem + 4th ventricle,Continuous,2,NA,3
+25026,Median T2star in thalamus (left),Continuous,2,NA,3
+25027,Median T2star in thalamus (right),Continuous,2,NA,3
+25028,Median T2star in caudate (left),Continuous,2,NA,3
+25029,Median T2star in caudate (right),Continuous,2,NA,3
+25030,Median T2star in putamen (left),Continuous,2,NA,3
+25031,Median T2star in putamen (right),Continuous,2,NA,3
+25032,Median T2star in pallidum (left),Continuous,2,NA,3
+25033,Median T2star in pallidum (right),Continuous,2,NA,3
+25034,Median T2star in hippocampus (left),Continuous,2,NA,3
+25035,Median T2star in hippocampus (right),Continuous,2,NA,3
+25036,Median T2star in amygdala (left),Continuous,2,NA,3
+25037,Median T2star in amygdala (right),Continuous,2,NA,3
+25038,Median T2star in accumbens (left),Continuous,2,NA,3
+25039,Median T2star in accumbens (right),Continuous,2,NA,3
+25040,Median BOLD effect (in group-defined mask) for shapes activation,Continuous,2,NA,3
+25042,Median z-statistic (in group-defined mask) for shapes activation,Continuous,2,NA,3
+25044,Median BOLD effect (in group-defined mask) for faces activation,Continuous,2,NA,3
+25046,Median z-statistic (in group-defined mask) for faces activation,Continuous,2,NA,3
+25048,Median BOLD effect (in group-defined mask) for faces-shapes contrast,Continuous,2,NA,3
+25050,Median z-statistic (in group-defined mask) for faces-shapes contrast,Continuous,2,NA,3
+25052,Median BOLD effect (in group-defined amygdala activation mask) for faces-shapes contrast,Continuous,2,NA,3
+25054,Median z-statistic (in group-defined amygdala activation mask) for faces-shapes contrast,Continuous,2,NA,3
+25056,Mean FA in middle cerebellar peduncle on FA skeleton,Continuous,2,NA,3
+25057,Mean FA in pontine crossing tract on FA skeleton,Continuous,2,NA,3
+25058,Mean FA in genu of corpus callosum on FA skeleton,Continuous,2,NA,3
+25059,Mean FA in body of corpus callosum on FA skeleton,Continuous,2,NA,3
+25060,Mean FA in splenium of corpus callosum on FA skeleton,Continuous,2,NA,3
+25061,Mean FA in fornix on FA skeleton,Continuous,2,NA,3
+25062,Mean FA in corticospinal tract on FA skeleton (right),Continuous,2,NA,3
+25063,Mean FA in corticospinal tract on FA skeleton (left),Continuous,2,NA,3
+25064,Mean FA in medial lemniscus on FA skeleton (right),Continuous,2,NA,3
+25065,Mean FA in medial lemniscus on FA skeleton (left),Continuous,2,NA,3
+25066,Mean FA in inferior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25067,Mean FA in inferior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25068,Mean FA in superior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25069,Mean FA in superior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25070,Mean FA in cerebral peduncle on FA skeleton (right),Continuous,2,NA,3
+25071,Mean FA in cerebral peduncle on FA skeleton (left),Continuous,2,NA,3
+25072,Mean FA in anterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25073,Mean FA in anterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25074,Mean FA in posterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25075,Mean FA in posterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25076,Mean FA in retrolenticular part of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25077,Mean FA in retrolenticular part of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25078,Mean FA in anterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25079,Mean FA in anterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25080,Mean FA in superior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25081,Mean FA in superior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25082,Mean FA in posterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25083,Mean FA in posterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25084,Mean FA in posterior thalamic radiation on FA skeleton (right),Continuous,2,NA,3
+25085,Mean FA in posterior thalamic radiation on FA skeleton (left),Continuous,2,NA,3
+25086,Mean FA in sagittal stratum on FA skeleton (right),Continuous,2,NA,3
+25087,Mean FA in sagittal stratum on FA skeleton (left),Continuous,2,NA,3
+25088,Mean FA in external capsule on FA skeleton (right),Continuous,2,NA,3
+25089,Mean FA in external capsule on FA skeleton (left),Continuous,2,NA,3
+25090,Mean FA in cingulum cingulate gyrus on FA skeleton (right),Continuous,2,NA,3
+25091,Mean FA in cingulum cingulate gyrus on FA skeleton (left),Continuous,2,NA,3
+25092,Mean FA in cingulum hippocampus on FA skeleton (right),Continuous,2,NA,3
+25093,Mean FA in cingulum hippocampus on FA skeleton (left),Continuous,2,NA,3
+25094,Mean FA in fornix cres+stria terminalis on FA skeleton (right),Continuous,2,NA,3
+25095,Mean FA in fornix cres+stria terminalis on FA skeleton (left),Continuous,2,NA,3
+25096,Mean FA in superior longitudinal fasciculus on FA skeleton (right),Continuous,2,NA,3
+25097,Mean FA in superior longitudinal fasciculus on FA skeleton (left),Continuous,2,NA,3
+25098,Mean FA in superior fronto-occipital fasciculus on FA skeleton (right),Continuous,2,NA,3
+25099,Mean FA in superior fronto-occipital fasciculus on FA skeleton (left),Continuous,2,NA,3
+25100,Mean FA in uncinate fasciculus on FA skeleton (right),Continuous,2,NA,3
+25101,Mean FA in uncinate fasciculus on FA skeleton (left),Continuous,2,NA,3
+25102,Mean FA in tapetum on FA skeleton (right),Continuous,2,NA,3
+25103,Mean FA in tapetum on FA skeleton (left),Continuous,2,NA,3
+25104,Mean MD in middle cerebellar peduncle on FA skeleton,Continuous,2,NA,3
+25105,Mean MD in pontine crossing tract on FA skeleton,Continuous,2,NA,3
+25106,Mean MD in genu of corpus callosum on FA skeleton,Continuous,2,NA,3
+25107,Mean MD in body of corpus callosum on FA skeleton,Continuous,2,NA,3
+25108,Mean MD in splenium of corpus callosum on FA skeleton,Continuous,2,NA,3
+25109,Mean MD in fornix on FA skeleton,Continuous,2,NA,3
+25110,Mean MD in corticospinal tract on FA skeleton (right),Continuous,2,NA,3
+25111,Mean MD in corticospinal tract on FA skeleton (left),Continuous,2,NA,3
+25112,Mean MD in medial lemniscus on FA skeleton (right),Continuous,2,NA,3
+25113,Mean MD in medial lemniscus on FA skeleton (left),Continuous,2,NA,3
+25114,Mean MD in inferior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25115,Mean MD in inferior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25116,Mean MD in superior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25117,Mean MD in superior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25118,Mean MD in cerebral peduncle on FA skeleton (right),Continuous,2,NA,3
+25119,Mean MD in cerebral peduncle on FA skeleton (left),Continuous,2,NA,3
+25120,Mean MD in anterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25121,Mean MD in anterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25122,Mean MD in posterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25123,Mean MD in posterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25124,Mean MD in retrolenticular part of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25125,Mean MD in retrolenticular part of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25126,Mean MD in anterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25127,Mean MD in anterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25128,Mean MD in superior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25129,Mean MD in superior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25130,Mean MD in posterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25131,Mean MD in posterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25132,Mean MD in posterior thalamic radiation on FA skeleton (right),Continuous,2,NA,3
+25133,Mean MD in posterior thalamic radiation on FA skeleton (left),Continuous,2,NA,3
+25134,Mean MD in sagittal stratum on FA skeleton (right),Continuous,2,NA,3
+25135,Mean MD in sagittal stratum on FA skeleton (left),Continuous,2,NA,3
+25136,Mean MD in external capsule on FA skeleton (right),Continuous,2,NA,3
+25137,Mean MD in external capsule on FA skeleton (left),Continuous,2,NA,3
+25138,Mean MD in cingulum cingulate gyrus on FA skeleton (right),Continuous,2,NA,3
+25139,Mean MD in cingulum cingulate gyrus on FA skeleton (left),Continuous,2,NA,3
+25140,Mean MD in cingulum hippocampus on FA skeleton (right),Continuous,2,NA,3
+25141,Mean MD in cingulum hippocampus on FA skeleton (left),Continuous,2,NA,3
+25142,Mean MD in fornix cres+stria terminalis on FA skeleton (right),Continuous,2,NA,3
+25143,Mean MD in fornix cres+stria terminalis on FA skeleton (left),Continuous,2,NA,3
+25144,Mean MD in superior longitudinal fasciculus on FA skeleton (right),Continuous,2,NA,3
+25145,Mean MD in superior longitudinal fasciculus on FA skeleton (left),Continuous,2,NA,3
+25146,Mean MD in superior fronto-occipital fasciculus on FA skeleton (right),Continuous,2,NA,3
+25147,Mean MD in superior fronto-occipital fasciculus on FA skeleton (left),Continuous,2,NA,3
+25148,Mean MD in uncinate fasciculus on FA skeleton (right),Continuous,2,NA,3
+25149,Mean MD in uncinate fasciculus on FA skeleton (left),Continuous,2,NA,3
+25150,Mean MD in tapetum on FA skeleton (right),Continuous,2,NA,3
+25151,Mean MD in tapetum on FA skeleton (left),Continuous,2,NA,3
+25152,Mean MO in middle cerebellar peduncle on FA skeleton,Continuous,2,NA,3
+25153,Mean MO in pontine crossing tract on FA skeleton,Continuous,2,NA,3
+25154,Mean MO in genu of corpus callosum on FA skeleton,Continuous,2,NA,3
+25155,Mean MO in body of corpus callosum on FA skeleton,Continuous,2,NA,3
+25156,Mean MO in splenium of corpus callosum on FA skeleton,Continuous,2,NA,3
+25157,Mean MO in fornix on FA skeleton,Continuous,2,NA,3
+25158,Mean MO in corticospinal tract on FA skeleton (right),Continuous,2,NA,3
+25159,Mean MO in corticospinal tract on FA skeleton (left),Continuous,2,NA,3
+25160,Mean MO in medial lemniscus on FA skeleton (right),Continuous,2,NA,3
+25161,Mean MO in medial lemniscus on FA skeleton (left),Continuous,2,NA,3
+25162,Mean MO in inferior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25163,Mean MO in inferior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25164,Mean MO in superior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25165,Mean MO in superior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25166,Mean MO in cerebral peduncle on FA skeleton (right),Continuous,2,NA,3
+25167,Mean MO in cerebral peduncle on FA skeleton (left),Continuous,2,NA,3
+25168,Mean MO in anterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25169,Mean MO in anterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25170,Mean MO in posterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25171,Mean MO in posterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25172,Mean MO in retrolenticular part of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25173,Mean MO in retrolenticular part of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25174,Mean MO in anterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25175,Mean MO in anterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25176,Mean MO in superior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25177,Mean MO in superior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25178,Mean MO in posterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25179,Mean MO in posterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25180,Mean MO in posterior thalamic radiation on FA skeleton (right),Continuous,2,NA,3
+25181,Mean MO in posterior thalamic radiation on FA skeleton (left),Continuous,2,NA,3
+25182,Mean MO in sagittal stratum on FA skeleton (right),Continuous,2,NA,3
+25183,Mean MO in sagittal stratum on FA skeleton (left),Continuous,2,NA,3
+25184,Mean MO in external capsule on FA skeleton (right),Continuous,2,NA,3
+25185,Mean MO in external capsule on FA skeleton (left),Continuous,2,NA,3
+25186,Mean MO in cingulum cingulate gyrus on FA skeleton (right),Continuous,2,NA,3
+25187,Mean MO in cingulum cingulate gyrus on FA skeleton (left),Continuous,2,NA,3
+25188,Mean MO in cingulum hippocampus on FA skeleton (right),Continuous,2,NA,3
+25189,Mean MO in cingulum hippocampus on FA skeleton (left),Continuous,2,NA,3
+25190,Mean MO in fornix cres+stria terminalis on FA skeleton (right),Continuous,2,NA,3
+25191,Mean MO in fornix cres+stria terminalis on FA skeleton (left),Continuous,2,NA,3
+25192,Mean MO in superior longitudinal fasciculus on FA skeleton (right),Continuous,2,NA,3
+25193,Mean MO in superior longitudinal fasciculus on FA skeleton (left),Continuous,2,NA,3
+25194,Mean MO in superior fronto-occipital fasciculus on FA skeleton (right),Continuous,2,NA,3
+25195,Mean MO in superior fronto-occipital fasciculus on FA skeleton (left),Continuous,2,NA,3
+25196,Mean MO in uncinate fasciculus on FA skeleton (right),Continuous,2,NA,3
+25197,Mean MO in uncinate fasciculus on FA skeleton (left),Continuous,2,NA,3
+25198,Mean MO in tapetum on FA skeleton (right),Continuous,2,NA,3
+25199,Mean MO in tapetum on FA skeleton (left),Continuous,2,NA,3
+25200,Mean L1 in middle cerebellar peduncle on FA skeleton,Continuous,2,NA,3
+25201,Mean L1 in pontine crossing tract on FA skeleton,Continuous,2,NA,3
+25202,Mean L1 in genu of corpus callosum on FA skeleton,Continuous,2,NA,3
+25203,Mean L1 in body of corpus callosum on FA skeleton,Continuous,2,NA,3
+25204,Mean L1 in splenium of corpus callosum on FA skeleton,Continuous,2,NA,3
+25205,Mean L1 in fornix on FA skeleton,Continuous,2,NA,3
+25206,Mean L1 in corticospinal tract on FA skeleton (right),Continuous,2,NA,3
+25207,Mean L1 in corticospinal tract on FA skeleton (left),Continuous,2,NA,3
+25208,Mean L1 in medial lemniscus on FA skeleton (right),Continuous,2,NA,3
+25209,Mean L1 in medial lemniscus on FA skeleton (left),Continuous,2,NA,3
+25210,Mean L1 in inferior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25211,Mean L1 in inferior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25212,Mean L1 in superior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25213,Mean L1 in superior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25214,Mean L1 in cerebral peduncle on FA skeleton (right),Continuous,2,NA,3
+25215,Mean L1 in cerebral peduncle on FA skeleton (left),Continuous,2,NA,3
+25216,Mean L1 in anterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25217,Mean L1 in anterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25218,Mean L1 in posterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25219,Mean L1 in posterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25220,Mean L1 in retrolenticular part of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25221,Mean L1 in retrolenticular part of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25222,Mean L1 in anterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25223,Mean L1 in anterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25224,Mean L1 in superior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25225,Mean L1 in superior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25226,Mean L1 in posterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25227,Mean L1 in posterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25228,Mean L1 in posterior thalamic radiation on FA skeleton (right),Continuous,2,NA,3
+25229,Mean L1 in posterior thalamic radiation on FA skeleton (left),Continuous,2,NA,3
+25230,Mean L1 in sagittal stratum on FA skeleton (right),Continuous,2,NA,3
+25231,Mean L1 in sagittal stratum on FA skeleton (left),Continuous,2,NA,3
+25232,Mean L1 in external capsule on FA skeleton (right),Continuous,2,NA,3
+25233,Mean L1 in external capsule on FA skeleton (left),Continuous,2,NA,3
+25234,Mean L1 in cingulum cingulate gyrus on FA skeleton (right),Continuous,2,NA,3
+25235,Mean L1 in cingulum cingulate gyrus on FA skeleton (left),Continuous,2,NA,3
+25236,Mean L1 in cingulum hippocampus on FA skeleton (right),Continuous,2,NA,3
+25237,Mean L1 in cingulum hippocampus on FA skeleton (left),Continuous,2,NA,3
+25238,Mean L1 in fornix cres+stria terminalis on FA skeleton (right),Continuous,2,NA,3
+25239,Mean L1 in fornix cres+stria terminalis on FA skeleton (left),Continuous,2,NA,3
+25240,Mean L1 in superior longitudinal fasciculus on FA skeleton (right),Continuous,2,NA,3
+25241,Mean L1 in superior longitudinal fasciculus on FA skeleton (left),Continuous,2,NA,3
+25242,Mean L1 in superior fronto-occipital fasciculus on FA skeleton (right),Continuous,2,NA,3
+25243,Mean L1 in superior fronto-occipital fasciculus on FA skeleton (left),Continuous,2,NA,3
+25244,Mean L1 in uncinate fasciculus on FA skeleton (right),Continuous,2,NA,3
+25245,Mean L1 in uncinate fasciculus on FA skeleton (left),Continuous,2,NA,3
+25246,Mean L1 in tapetum on FA skeleton (right),Continuous,2,NA,3
+25247,Mean L1 in tapetum on FA skeleton (left),Continuous,2,NA,3
+25248,Mean L2 in middle cerebellar peduncle on FA skeleton,Continuous,2,NA,3
+25249,Mean L2 in pontine crossing tract on FA skeleton,Continuous,2,NA,3
+25250,Mean L2 in genu of corpus callosum on FA skeleton,Continuous,2,NA,3
+25251,Mean L2 in body of corpus callosum on FA skeleton,Continuous,2,NA,3
+25252,Mean L2 in splenium of corpus callosum on FA skeleton,Continuous,2,NA,3
+25253,Mean L2 in fornix on FA skeleton,Continuous,2,NA,3
+25254,Mean L2 in corticospinal tract on FA skeleton (right),Continuous,2,NA,3
+25255,Mean L2 in corticospinal tract on FA skeleton (left),Continuous,2,NA,3
+25256,Mean L2 in medial lemniscus on FA skeleton (right),Continuous,2,NA,3
+25257,Mean L2 in medial lemniscus on FA skeleton (left),Continuous,2,NA,3
+25258,Mean L2 in inferior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25259,Mean L2 in inferior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25260,Mean L2 in superior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25261,Mean L2 in superior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25262,Mean L2 in cerebral peduncle on FA skeleton (right),Continuous,2,NA,3
+25263,Mean L2 in cerebral peduncle on FA skeleton (left),Continuous,2,NA,3
+25264,Mean L2 in anterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25265,Mean L2 in anterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25266,Mean L2 in posterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25267,Mean L2 in posterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25268,Mean L2 in retrolenticular part of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25269,Mean L2 in retrolenticular part of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25270,Mean L2 in anterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25271,Mean L2 in anterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25272,Mean L2 in superior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25273,Mean L2 in superior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25274,Mean L2 in posterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25275,Mean L2 in posterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25276,Mean L2 in posterior thalamic radiation on FA skeleton (right),Continuous,2,NA,3
+25277,Mean L2 in posterior thalamic radiation on FA skeleton (left),Continuous,2,NA,3
+25278,Mean L2 in sagittal stratum on FA skeleton (right),Continuous,2,NA,3
+25279,Mean L2 in sagittal stratum on FA skeleton (left),Continuous,2,NA,3
+25280,Mean L2 in external capsule on FA skeleton (right),Continuous,2,NA,3
+25281,Mean L2 in external capsule on FA skeleton (left),Continuous,2,NA,3
+25282,Mean L2 in cingulum cingulate gyrus on FA skeleton (right),Continuous,2,NA,3
+25283,Mean L2 in cingulum cingulate gyrus on FA skeleton (left),Continuous,2,NA,3
+25284,Mean L2 in cingulum hippocampus on FA skeleton (right),Continuous,2,NA,3
+25285,Mean L2 in cingulum hippocampus on FA skeleton (left),Continuous,2,NA,3
+25286,Mean L2 in fornix cres+stria terminalis on FA skeleton (right),Continuous,2,NA,3
+25287,Mean L2 in fornix cres+stria terminalis on FA skeleton (left),Continuous,2,NA,3
+25288,Mean L2 in superior longitudinal fasciculus on FA skeleton (right),Continuous,2,NA,3
+25289,Mean L2 in superior longitudinal fasciculus on FA skeleton (left),Continuous,2,NA,3
+25290,Mean L2 in superior fronto-occipital fasciculus on FA skeleton (right),Continuous,2,NA,3
+25291,Mean L2 in superior fronto-occipital fasciculus on FA skeleton (left),Continuous,2,NA,3
+25292,Mean L2 in uncinate fasciculus on FA skeleton (right),Continuous,2,NA,3
+25293,Mean L2 in uncinate fasciculus on FA skeleton (left),Continuous,2,NA,3
+25294,Mean L2 in tapetum on FA skeleton (right),Continuous,2,NA,3
+25295,Mean L2 in tapetum on FA skeleton (left),Continuous,2,NA,3
+25296,Mean L3 in middle cerebellar peduncle on FA skeleton,Continuous,2,NA,3
+25297,Mean L3 in pontine crossing tract on FA skeleton,Continuous,2,NA,3
+25298,Mean L3 in genu of corpus callosum on FA skeleton,Continuous,2,NA,3
+25299,Mean L3 in body of corpus callosum on FA skeleton,Continuous,2,NA,3
+25300,Mean L3 in splenium of corpus callosum on FA skeleton,Continuous,2,NA,3
+25301,Mean L3 in fornix on FA skeleton,Continuous,2,NA,3
+25302,Mean L3 in corticospinal tract on FA skeleton (right),Continuous,2,NA,3
+25303,Mean L3 in corticospinal tract on FA skeleton (left),Continuous,2,NA,3
+25304,Mean L3 in medial lemniscus on FA skeleton (right),Continuous,2,NA,3
+25305,Mean L3 in medial lemniscus on FA skeleton (left),Continuous,2,NA,3
+25306,Mean L3 in inferior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25307,Mean L3 in inferior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25308,Mean L3 in superior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25309,Mean L3 in superior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25310,Mean L3 in cerebral peduncle on FA skeleton (right),Continuous,2,NA,3
+25311,Mean L3 in cerebral peduncle on FA skeleton (left),Continuous,2,NA,3
+25312,Mean L3 in anterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25313,Mean L3 in anterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25314,Mean L3 in posterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25315,Mean L3 in posterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25316,Mean L3 in retrolenticular part of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25317,Mean L3 in retrolenticular part of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25318,Mean L3 in anterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25319,Mean L3 in anterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25320,Mean L3 in superior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25321,Mean L3 in superior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25322,Mean L3 in posterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25323,Mean L3 in posterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25324,Mean L3 in posterior thalamic radiation on FA skeleton (right),Continuous,2,NA,3
+25325,Mean L3 in posterior thalamic radiation on FA skeleton (left),Continuous,2,NA,3
+25326,Mean L3 in sagittal stratum on FA skeleton (right),Continuous,2,NA,3
+25327,Mean L3 in sagittal stratum on FA skeleton (left),Continuous,2,NA,3
+25328,Mean L3 in external capsule on FA skeleton (right),Continuous,2,NA,3
+25329,Mean L3 in external capsule on FA skeleton (left),Continuous,2,NA,3
+25330,Mean L3 in cingulum cingulate gyrus on FA skeleton (right),Continuous,2,NA,3
+25331,Mean L3 in cingulum cingulate gyrus on FA skeleton (left),Continuous,2,NA,3
+25332,Mean L3 in cingulum hippocampus on FA skeleton (right),Continuous,2,NA,3
+25333,Mean L3 in cingulum hippocampus on FA skeleton (left),Continuous,2,NA,3
+25334,Mean L3 in fornix cres+stria terminalis on FA skeleton (right),Continuous,2,NA,3
+25335,Mean L3 in fornix cres+stria terminalis on FA skeleton (left),Continuous,2,NA,3
+25336,Mean L3 in superior longitudinal fasciculus on FA skeleton (right),Continuous,2,NA,3
+25337,Mean L3 in superior longitudinal fasciculus on FA skeleton (left),Continuous,2,NA,3
+25338,Mean L3 in superior fronto-occipital fasciculus on FA skeleton (right),Continuous,2,NA,3
+25339,Mean L3 in superior fronto-occipital fasciculus on FA skeleton (left),Continuous,2,NA,3
+25340,Mean L3 in uncinate fasciculus on FA skeleton (right),Continuous,2,NA,3
+25341,Mean L3 in uncinate fasciculus on FA skeleton (left),Continuous,2,NA,3
+25342,Mean L3 in tapetum on FA skeleton (right),Continuous,2,NA,3
+25343,Mean L3 in tapetum on FA skeleton (left),Continuous,2,NA,3
+25344,Mean ICVF in middle cerebellar peduncle on FA skeleton,Continuous,2,NA,3
+25345,Mean ICVF in pontine crossing tract on FA skeleton,Continuous,2,NA,3
+25346,Mean ICVF in genu of corpus callosum on FA skeleton,Continuous,2,NA,3
+25347,Mean ICVF in body of corpus callosum on FA skeleton,Continuous,2,NA,3
+25348,Mean ICVF in splenium of corpus callosum on FA skeleton,Continuous,2,NA,3
+25349,Mean ICVF in fornix on FA skeleton,Continuous,2,NA,3
+25350,Mean ICVF in corticospinal tract on FA skeleton (right),Continuous,2,NA,3
+25351,Mean ICVF in corticospinal tract on FA skeleton (left),Continuous,2,NA,3
+25352,Mean ICVF in medial lemniscus on FA skeleton (right),Continuous,2,NA,3
+25353,Mean ICVF in medial lemniscus on FA skeleton (left),Continuous,2,NA,3
+25354,Mean ICVF in inferior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25355,Mean ICVF in inferior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25356,Mean ICVF in superior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25357,Mean ICVF in superior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25358,Mean ICVF in cerebral peduncle on FA skeleton (right),Continuous,2,NA,3
+25359,Mean ICVF in cerebral peduncle on FA skeleton (left),Continuous,2,NA,3
+25360,Mean ICVF in anterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25361,Mean ICVF in anterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25362,Mean ICVF in posterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25363,Mean ICVF in posterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25364,Mean ICVF in retrolenticular part of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25365,Mean ICVF in retrolenticular part of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25366,Mean ICVF in anterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25367,Mean ICVF in anterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25368,Mean ICVF in superior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25369,Mean ICVF in superior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25370,Mean ICVF in posterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25371,Mean ICVF in posterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25372,Mean ICVF in posterior thalamic radiation on FA skeleton (right),Continuous,2,NA,3
+25373,Mean ICVF in posterior thalamic radiation on FA skeleton (left),Continuous,2,NA,3
+25374,Mean ICVF in sagittal stratum on FA skeleton (right),Continuous,2,NA,3
+25375,Mean ICVF in sagittal stratum on FA skeleton (left),Continuous,2,NA,3
+25376,Mean ICVF in external capsule on FA skeleton (right),Continuous,2,NA,3
+25377,Mean ICVF in external capsule on FA skeleton (left),Continuous,2,NA,3
+25378,Mean ICVF in cingulum cingulate gyrus on FA skeleton (right),Continuous,2,NA,3
+25379,Mean ICVF in cingulum cingulate gyrus on FA skeleton (left),Continuous,2,NA,3
+25380,Mean ICVF in cingulum hippocampus on FA skeleton (right),Continuous,2,NA,3
+25381,Mean ICVF in cingulum hippocampus on FA skeleton (left),Continuous,2,NA,3
+25382,Mean ICVF in fornix cres+stria terminalis on FA skeleton (right),Continuous,2,NA,3
+25383,Mean ICVF in fornix cres+stria terminalis on FA skeleton (left),Continuous,2,NA,3
+25384,Mean ICVF in superior longitudinal fasciculus on FA skeleton (right),Continuous,2,NA,3
+25385,Mean ICVF in superior longitudinal fasciculus on FA skeleton (left),Continuous,2,NA,3
+25386,Mean ICVF in superior fronto-occipital fasciculus on FA skeleton (right),Continuous,2,NA,3
+25387,Mean ICVF in superior fronto-occipital fasciculus on FA skeleton (left),Continuous,2,NA,3
+25388,Mean ICVF in uncinate fasciculus on FA skeleton (right),Continuous,2,NA,3
+25389,Mean ICVF in uncinate fasciculus on FA skeleton (left),Continuous,2,NA,3
+25390,Mean ICVF in tapetum on FA skeleton (right),Continuous,2,NA,3
+25391,Mean ICVF in tapetum on FA skeleton (left),Continuous,2,NA,3
+25392,Mean OD in middle cerebellar peduncle on FA skeleton,Continuous,2,NA,3
+25393,Mean OD in pontine crossing tract on FA skeleton,Continuous,2,NA,3
+25394,Mean OD in genu of corpus callosum on FA skeleton,Continuous,2,NA,3
+25395,Mean OD in body of corpus callosum on FA skeleton,Continuous,2,NA,3
+25396,Mean OD in splenium of corpus callosum on FA skeleton,Continuous,2,NA,3
+25397,Mean OD in fornix on FA skeleton,Continuous,2,NA,3
+25398,Mean OD in corticospinal tract on FA skeleton (right),Continuous,2,NA,3
+25399,Mean OD in corticospinal tract on FA skeleton (left),Continuous,2,NA,3
+25400,Mean OD in medial lemniscus on FA skeleton (right),Continuous,2,NA,3
+25401,Mean OD in medial lemniscus on FA skeleton (left),Continuous,2,NA,3
+25402,Mean OD in inferior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25403,Mean OD in inferior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25404,Mean OD in superior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25405,Mean OD in superior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25406,Mean OD in cerebral peduncle on FA skeleton (right),Continuous,2,NA,3
+25407,Mean OD in cerebral peduncle on FA skeleton (left),Continuous,2,NA,3
+25408,Mean OD in anterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25409,Mean OD in anterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25410,Mean OD in posterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25411,Mean OD in posterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25412,Mean OD in retrolenticular part of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25413,Mean OD in retrolenticular part of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25414,Mean OD in anterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25415,Mean OD in anterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25416,Mean OD in superior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25417,Mean OD in superior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25418,Mean OD in posterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25419,Mean OD in posterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25420,Mean OD in posterior thalamic radiation on FA skeleton (right),Continuous,2,NA,3
+25421,Mean OD in posterior thalamic radiation on FA skeleton (left),Continuous,2,NA,3
+25422,Mean OD in sagittal stratum on FA skeleton (right),Continuous,2,NA,3
+25423,Mean OD in sagittal stratum on FA skeleton (left),Continuous,2,NA,3
+25424,Mean OD in external capsule on FA skeleton (right),Continuous,2,NA,3
+25425,Mean OD in external capsule on FA skeleton (left),Continuous,2,NA,3
+25426,Mean OD in cingulum cingulate gyrus on FA skeleton (right),Continuous,2,NA,3
+25427,Mean OD in cingulum cingulate gyrus on FA skeleton (left),Continuous,2,NA,3
+25428,Mean OD in cingulum hippocampus on FA skeleton (right),Continuous,2,NA,3
+25429,Mean OD in cingulum hippocampus on FA skeleton (left),Continuous,2,NA,3
+25430,Mean OD in fornix cres+stria terminalis on FA skeleton (right),Continuous,2,NA,3
+25431,Mean OD in fornix cres+stria terminalis on FA skeleton (left),Continuous,2,NA,3
+25432,Mean OD in superior longitudinal fasciculus on FA skeleton (right),Continuous,2,NA,3
+25433,Mean OD in superior longitudinal fasciculus on FA skeleton (left),Continuous,2,NA,3
+25434,Mean OD in superior fronto-occipital fasciculus on FA skeleton (right),Continuous,2,NA,3
+25435,Mean OD in superior fronto-occipital fasciculus on FA skeleton (left),Continuous,2,NA,3
+25436,Mean OD in uncinate fasciculus on FA skeleton (right),Continuous,2,NA,3
+25437,Mean OD in uncinate fasciculus on FA skeleton (left),Continuous,2,NA,3
+25438,Mean OD in tapetum on FA skeleton (right),Continuous,2,NA,3
+25439,Mean OD in tapetum on FA skeleton (left),Continuous,2,NA,3
+25440,Mean ISOVF in middle cerebellar peduncle on FA skeleton,Continuous,2,NA,3
+25441,Mean ISOVF in pontine crossing tract on FA skeleton,Continuous,2,NA,3
+25442,Mean ISOVF in genu of corpus callosum on FA skeleton,Continuous,2,NA,3
+25443,Mean ISOVF in body of corpus callosum on FA skeleton,Continuous,2,NA,3
+25444,Mean ISOVF in splenium of corpus callosum on FA skeleton,Continuous,2,NA,3
+25445,Mean ISOVF in fornix on FA skeleton,Continuous,2,NA,3
+25446,Mean ISOVF in corticospinal tract on FA skeleton (right),Continuous,2,NA,3
+25447,Mean ISOVF in corticospinal tract on FA skeleton (left),Continuous,2,NA,3
+25448,Mean ISOVF in medial lemniscus on FA skeleton (right),Continuous,2,NA,3
+25449,Mean ISOVF in medial lemniscus on FA skeleton (left),Continuous,2,NA,3
+25450,Mean ISOVF in inferior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25451,Mean ISOVF in inferior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25452,Mean ISOVF in superior cerebellar peduncle on FA skeleton (right),Continuous,2,NA,3
+25453,Mean ISOVF in superior cerebellar peduncle on FA skeleton (left),Continuous,2,NA,3
+25454,Mean ISOVF in cerebral peduncle on FA skeleton (right),Continuous,2,NA,3
+25455,Mean ISOVF in cerebral peduncle on FA skeleton (left),Continuous,2,NA,3
+25456,Mean ISOVF in anterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25457,Mean ISOVF in anterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25458,Mean ISOVF in posterior limb of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25459,Mean ISOVF in posterior limb of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25460,Mean ISOVF in retrolenticular part of internal capsule on FA skeleton (right),Continuous,2,NA,3
+25461,Mean ISOVF in retrolenticular part of internal capsule on FA skeleton (left),Continuous,2,NA,3
+25462,Mean ISOVF in anterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25463,Mean ISOVF in anterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25464,Mean ISOVF in superior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25465,Mean ISOVF in superior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25466,Mean ISOVF in posterior corona radiata on FA skeleton (right),Continuous,2,NA,3
+25467,Mean ISOVF in posterior corona radiata on FA skeleton (left),Continuous,2,NA,3
+25468,Mean ISOVF in posterior thalamic radiation on FA skeleton (right),Continuous,2,NA,3
+25469,Mean ISOVF in posterior thalamic radiation on FA skeleton (left),Continuous,2,NA,3
+25470,Mean ISOVF in sagittal stratum on FA skeleton (right),Continuous,2,NA,3
+25471,Mean ISOVF in sagittal stratum on FA skeleton (left),Continuous,2,NA,3
+25472,Mean ISOVF in external capsule on FA skeleton (right),Continuous,2,NA,3
+25473,Mean ISOVF in external capsule on FA skeleton (left),Continuous,2,NA,3
+25474,Mean ISOVF in cingulum cingulate gyrus on FA skeleton (right),Continuous,2,NA,3
+25475,Mean ISOVF in cingulum cingulate gyrus on FA skeleton (left),Continuous,2,NA,3
+25476,Mean ISOVF in cingulum hippocampus on FA skeleton (right),Continuous,2,NA,3
+25477,Mean ISOVF in cingulum hippocampus on FA skeleton (left),Continuous,2,NA,3
+25478,Mean ISOVF in fornix cres+stria terminalis on FA skeleton (right),Continuous,2,NA,3
+25479,Mean ISOVF in fornix cres+stria terminalis on FA skeleton (left),Continuous,2,NA,3
+25480,Mean ISOVF in superior longitudinal fasciculus on FA skeleton (right),Continuous,2,NA,3
+25481,Mean ISOVF in superior longitudinal fasciculus on FA skeleton (left),Continuous,2,NA,3
+25482,Mean ISOVF in superior fronto-occipital fasciculus on FA skeleton (right),Continuous,2,NA,3
+25483,Mean ISOVF in superior fronto-occipital fasciculus on FA skeleton (left),Continuous,2,NA,3
+25484,Mean ISOVF in uncinate fasciculus on FA skeleton (right),Continuous,2,NA,3
+25485,Mean ISOVF in uncinate fasciculus on FA skeleton (left),Continuous,2,NA,3
+25486,Mean ISOVF in tapetum on FA skeleton (right),Continuous,2,NA,3
+25487,Mean ISOVF in tapetum on FA skeleton (left),Continuous,2,NA,3
+25488,Weighted-mean FA in tract acoustic radiation (left),Continuous,2,NA,3
+25489,Weighted-mean FA in tract acoustic radiation (right),Continuous,2,NA,3
+25490,Weighted-mean FA in tract anterior thalamic radiation (left),Continuous,2,NA,3
+25491,Weighted-mean FA in tract anterior thalamic radiation (right),Continuous,2,NA,3
+25492,Weighted-mean FA in tract cingulate gyrus part of cingulum (left),Continuous,2,NA,3
+25493,Weighted-mean FA in tract cingulate gyrus part of cingulum (right),Continuous,2,NA,3
+25494,Weighted-mean FA in tract parahippocampal part of cingulum (left),Continuous,2,NA,3
+25495,Weighted-mean FA in tract parahippocampal part of cingulum (right),Continuous,2,NA,3
+25496,Weighted-mean FA in tract corticospinal tract (left),Continuous,2,NA,3
+25497,Weighted-mean FA in tract corticospinal tract (right),Continuous,2,NA,3
+25498,Weighted-mean FA in tract forceps major,Continuous,2,NA,3
+25499,Weighted-mean FA in tract forceps minor,Continuous,2,NA,3
+25500,Weighted-mean FA in tract inferior fronto-occipital fasciculus (left),Continuous,2,NA,3
+25501,Weighted-mean FA in tract inferior fronto-occipital fasciculus (right),Continuous,2,NA,3
+25502,Weighted-mean FA in tract inferior longitudinal fasciculus (left),Continuous,2,NA,3
+25503,Weighted-mean FA in tract inferior longitudinal fasciculus (right),Continuous,2,NA,3
+25504,Weighted-mean FA in tract middle cerebellar peduncle,Continuous,2,NA,3
+25505,Weighted-mean FA in tract medial lemniscus (left),Continuous,2,NA,3
+25506,Weighted-mean FA in tract medial lemniscus (right),Continuous,2,NA,3
+25507,Weighted-mean FA in tract posterior thalamic radiation (left),Continuous,2,NA,3
+25508,Weighted-mean FA in tract posterior thalamic radiation (right),Continuous,2,NA,3
+25509,Weighted-mean FA in tract superior longitudinal fasciculus (left),Continuous,2,NA,3
+25510,Weighted-mean FA in tract superior longitudinal fasciculus (right),Continuous,2,NA,3
+25511,Weighted-mean FA in tract superior thalamic radiation (left),Continuous,2,NA,3
+25512,Weighted-mean FA in tract superior thalamic radiation (right),Continuous,2,NA,3
+25513,Weighted-mean FA in tract uncinate fasciculus (left),Continuous,2,NA,3
+25514,Weighted-mean FA in tract uncinate fasciculus (right),Continuous,2,NA,3
+25515,Weighted-mean MD in tract acoustic radiation (left),Continuous,2,NA,3
+25516,Weighted-mean MD in tract acoustic radiation (right),Continuous,2,NA,3
+25517,Weighted-mean MD in tract anterior thalamic radiation (left),Continuous,2,NA,3
+25518,Weighted-mean MD in tract anterior thalamic radiation (right),Continuous,2,NA,3
+25519,Weighted-mean MD in tract cingulate gyrus part of cingulum (left),Continuous,2,NA,3
+25520,Weighted-mean MD in tract cingulate gyrus part of cingulum (right),Continuous,2,NA,3
+25521,Weighted-mean MD in tract parahippocampal part of cingulum (left),Continuous,2,NA,3
+25522,Weighted-mean MD in tract parahippocampal part of cingulum (right),Continuous,2,NA,3
+25523,Weighted-mean MD in tract corticospinal tract (left),Continuous,2,NA,3
+25524,Weighted-mean MD in tract corticospinal tract (right),Continuous,2,NA,3
+25525,Weighted-mean MD in tract forceps major,Continuous,2,NA,3
+25526,Weighted-mean MD in tract forceps minor,Continuous,2,NA,3
+25527,Weighted-mean MD in tract inferior fronto-occipital fasciculus (left),Continuous,2,NA,3
+25528,Weighted-mean MD in tract inferior fronto-occipital fasciculus (right),Continuous,2,NA,3
+25529,Weighted-mean MD in tract inferior longitudinal fasciculus (left),Continuous,2,NA,3
+25530,Weighted-mean MD in tract inferior longitudinal fasciculus (right),Continuous,2,NA,3
+25531,Weighted-mean MD in tract middle cerebellar peduncle,Continuous,2,NA,3
+25532,Weighted-mean MD in tract medial lemniscus (left),Continuous,2,NA,3
+25533,Weighted-mean MD in tract medial lemniscus (right),Continuous,2,NA,3
+25534,Weighted-mean MD in tract posterior thalamic radiation (left),Continuous,2,NA,3
+25535,Weighted-mean MD in tract posterior thalamic radiation (right),Continuous,2,NA,3
+25536,Weighted-mean MD in tract superior longitudinal fasciculus (left),Continuous,2,NA,3
+25537,Weighted-mean MD in tract superior longitudinal fasciculus (right),Continuous,2,NA,3
+25538,Weighted-mean MD in tract superior thalamic radiation (left),Continuous,2,NA,3
+25539,Weighted-mean MD in tract superior thalamic radiation (right),Continuous,2,NA,3
+25540,Weighted-mean MD in tract uncinate fasciculus (left),Continuous,2,NA,3
+25541,Weighted-mean MD in tract uncinate fasciculus (right),Continuous,2,NA,3
+25542,Weighted-mean MO in tract acoustic radiation (left),Continuous,2,NA,3
+25543,Weighted-mean MO in tract acoustic radiation (right),Continuous,2,NA,3
+25544,Weighted-mean MO in tract anterior thalamic radiation (left),Continuous,2,NA,3
+25545,Weighted-mean MO in tract anterior thalamic radiation (right),Continuous,2,NA,3
+25546,Weighted-mean MO in tract cingulate gyrus part of cingulum (left),Continuous,2,NA,3
+25547,Weighted-mean MO in tract cingulate gyrus part of cingulum (right),Continuous,2,NA,3
+25548,Weighted-mean MO in tract parahippocampal part of cingulum (left),Continuous,2,NA,3
+25549,Weighted-mean MO in tract parahippocampal part of cingulum (right),Continuous,2,NA,3
+25550,Weighted-mean MO in tract corticospinal tract (left),Continuous,2,NA,3
+25551,Weighted-mean MO in tract corticospinal tract (right),Continuous,2,NA,3
+25552,Weighted-mean MO in tract forceps major,Continuous,2,NA,3
+25553,Weighted-mean MO in tract forceps minor,Continuous,2,NA,3
+25554,Weighted-mean MO in tract inferior fronto-occipital fasciculus (left),Continuous,2,NA,3
+25555,Weighted-mean MO in tract inferior fronto-occipital fasciculus (right),Continuous,2,NA,3
+25556,Weighted-mean MO in tract inferior longitudinal fasciculus (left),Continuous,2,NA,3
+25557,Weighted-mean MO in tract inferior longitudinal fasciculus (right),Continuous,2,NA,3
+25558,Weighted-mean MO in tract middle cerebellar peduncle,Continuous,2,NA,3
+25559,Weighted-mean MO in tract medial lemniscus (left),Continuous,2,NA,3
+25560,Weighted-mean MO in tract medial lemniscus (right),Continuous,2,NA,3
+25561,Weighted-mean MO in tract posterior thalamic radiation (left),Continuous,2,NA,3
+25562,Weighted-mean MO in tract posterior thalamic radiation (right),Continuous,2,NA,3
+25563,Weighted-mean MO in tract superior longitudinal fasciculus (left),Continuous,2,NA,3
+25564,Weighted-mean MO in tract superior longitudinal fasciculus (right),Continuous,2,NA,3
+25565,Weighted-mean MO in tract superior thalamic radiation (left),Continuous,2,NA,3
+25566,Weighted-mean MO in tract superior thalamic radiation (right),Continuous,2,NA,3
+25567,Weighted-mean MO in tract uncinate fasciculus (left),Continuous,2,NA,3
+25568,Weighted-mean MO in tract uncinate fasciculus (right),Continuous,2,NA,3
+25569,Weighted-mean L1 in tract acoustic radiation (left),Continuous,2,NA,3
+25570,Weighted-mean L1 in tract acoustic radiation (right),Continuous,2,NA,3
+25571,Weighted-mean L1 in tract anterior thalamic radiation (left),Continuous,2,NA,3
+25572,Weighted-mean L1 in tract anterior thalamic radiation (right),Continuous,2,NA,3
+25573,Weighted-mean L1 in tract cingulate gyrus part of cingulum (left),Continuous,2,NA,3
+25574,Weighted-mean L1 in tract cingulate gyrus part of cingulum (right),Continuous,2,NA,3
+25575,Weighted-mean L1 in tract parahippocampal part of cingulum (left),Continuous,2,NA,3
+25576,Weighted-mean L1 in tract parahippocampal part of cingulum (right),Continuous,2,NA,3
+25577,Weighted-mean L1 in tract corticospinal tract (left),Continuous,2,NA,3
+25578,Weighted-mean L1 in tract corticospinal tract (right),Continuous,2,NA,3
+25579,Weighted-mean L1 in tract forceps major,Continuous,2,NA,3
+25580,Weighted-mean L1 in tract forceps minor,Continuous,2,NA,3
+25581,Weighted-mean L1 in tract inferior fronto-occipital fasciculus (left),Continuous,2,NA,3
+25582,Weighted-mean L1 in tract inferior fronto-occipital fasciculus (right),Continuous,2,NA,3
+25583,Weighted-mean L1 in tract inferior longitudinal fasciculus (left),Continuous,2,NA,3
+25584,Weighted-mean L1 in tract inferior longitudinal fasciculus (right),Continuous,2,NA,3
+25585,Weighted-mean L1 in tract middle cerebellar peduncle,Continuous,2,NA,3
+25586,Weighted-mean L1 in tract medial lemniscus (left),Continuous,2,NA,3
+25587,Weighted-mean L1 in tract medial lemniscus (right),Continuous,2,NA,3
+25588,Weighted-mean L1 in tract posterior thalamic radiation (left),Continuous,2,NA,3
+25589,Weighted-mean L1 in tract posterior thalamic radiation (right),Continuous,2,NA,3
+25590,Weighted-mean L1 in tract superior longitudinal fasciculus (left),Continuous,2,NA,3
+25591,Weighted-mean L1 in tract superior longitudinal fasciculus (right),Continuous,2,NA,3
+25592,Weighted-mean L1 in tract superior thalamic radiation (left),Continuous,2,NA,3
+25593,Weighted-mean L1 in tract superior thalamic radiation (right),Continuous,2,NA,3
+25594,Weighted-mean L1 in tract uncinate fasciculus (left),Continuous,2,NA,3
+25595,Weighted-mean L1 in tract uncinate fasciculus (right),Continuous,2,NA,3
+25596,Weighted-mean L2 in tract acoustic radiation (left),Continuous,2,NA,3
+25597,Weighted-mean L2 in tract acoustic radiation (right),Continuous,2,NA,3
+25598,Weighted-mean L2 in tract anterior thalamic radiation (left),Continuous,2,NA,3
+25599,Weighted-mean L2 in tract anterior thalamic radiation (right),Continuous,2,NA,3
+25600,Weighted-mean L2 in tract cingulate gyrus part of cingulum (left),Continuous,2,NA,3
+25601,Weighted-mean L2 in tract cingulate gyrus part of cingulum (right),Continuous,2,NA,3
+25602,Weighted-mean L2 in tract parahippocampal part of cingulum (left),Continuous,2,NA,3
+25603,Weighted-mean L2 in tract parahippocampal part of cingulum (right),Continuous,2,NA,3
+25604,Weighted-mean L2 in tract corticospinal tract (left),Continuous,2,NA,3
+25605,Weighted-mean L2 in tract corticospinal tract (right),Continuous,2,NA,3
+25606,Weighted-mean L2 in tract forceps major,Continuous,2,NA,3
+25607,Weighted-mean L2 in tract forceps minor,Continuous,2,NA,3
+25608,Weighted-mean L2 in tract inferior fronto-occipital fasciculus (left),Continuous,2,NA,3
+25609,Weighted-mean L2 in tract inferior fronto-occipital fasciculus (right),Continuous,2,NA,3
+25610,Weighted-mean L2 in tract inferior longitudinal fasciculus (left),Continuous,2,NA,3
+25611,Weighted-mean L2 in tract inferior longitudinal fasciculus (right),Continuous,2,NA,3
+25612,Weighted-mean L2 in tract middle cerebellar peduncle,Continuous,2,NA,3
+25613,Weighted-mean L2 in tract medial lemniscus (left),Continuous,2,NA,3
+25614,Weighted-mean L2 in tract medial lemniscus (right),Continuous,2,NA,3
+25615,Weighted-mean L2 in tract posterior thalamic radiation (left),Continuous,2,NA,3
+25616,Weighted-mean L2 in tract posterior thalamic radiation (right),Continuous,2,NA,3
+25617,Weighted-mean L2 in tract superior longitudinal fasciculus (left),Continuous,2,NA,3
+25618,Weighted-mean L2 in tract superior longitudinal fasciculus (right),Continuous,2,NA,3
+25619,Weighted-mean L2 in tract superior thalamic radiation (left),Continuous,2,NA,3
+25620,Weighted-mean L2 in tract superior thalamic radiation (right),Continuous,2,NA,3
+25621,Weighted-mean L2 in tract uncinate fasciculus (left),Continuous,2,NA,3
+25622,Weighted-mean L2 in tract uncinate fasciculus (right),Continuous,2,NA,3
+25623,Weighted-mean L3 in tract acoustic radiation (left),Continuous,2,NA,3
+25624,Weighted-mean L3 in tract acoustic radiation (right),Continuous,2,NA,3
+25625,Weighted-mean L3 in tract anterior thalamic radiation (left),Continuous,2,NA,3
+25626,Weighted-mean L3 in tract anterior thalamic radiation (right),Continuous,2,NA,3
+25627,Weighted-mean L3 in tract cingulate gyrus part of cingulum (left),Continuous,2,NA,3
+25628,Weighted-mean L3 in tract cingulate gyrus part of cingulum (right),Continuous,2,NA,3
+25629,Weighted-mean L3 in tract parahippocampal part of cingulum (left),Continuous,2,NA,3
+25630,Weighted-mean L3 in tract parahippocampal part of cingulum (right),Continuous,2,NA,3
+25631,Weighted-mean L3 in tract corticospinal tract (left),Continuous,2,NA,3
+25632,Weighted-mean L3 in tract corticospinal tract (right),Continuous,2,NA,3
+25633,Weighted-mean L3 in tract forceps major,Continuous,2,NA,3
+25634,Weighted-mean L3 in tract forceps minor,Continuous,2,NA,3
+25635,Weighted-mean L3 in tract inferior fronto-occipital fasciculus (left),Continuous,2,NA,3
+25636,Weighted-mean L3 in tract inferior fronto-occipital fasciculus (right),Continuous,2,NA,3
+25637,Weighted-mean L3 in tract inferior longitudinal fasciculus (left),Continuous,2,NA,3
+25638,Weighted-mean L3 in tract inferior longitudinal fasciculus (right),Continuous,2,NA,3
+25639,Weighted-mean L3 in tract middle cerebellar peduncle,Continuous,2,NA,3
+25640,Weighted-mean L3 in tract medial lemniscus (left),Continuous,2,NA,3
+25641,Weighted-mean L3 in tract medial lemniscus (right),Continuous,2,NA,3
+25642,Weighted-mean L3 in tract posterior thalamic radiation (left),Continuous,2,NA,3
+25643,Weighted-mean L3 in tract posterior thalamic radiation (right),Continuous,2,NA,3
+25644,Weighted-mean L3 in tract superior longitudinal fasciculus (left),Continuous,2,NA,3
+25645,Weighted-mean L3 in tract superior longitudinal fasciculus (right),Continuous,2,NA,3
+25646,Weighted-mean L3 in tract superior thalamic radiation (left),Continuous,2,NA,3
+25647,Weighted-mean L3 in tract superior thalamic radiation (right),Continuous,2,NA,3
+25648,Weighted-mean L3 in tract uncinate fasciculus (left),Continuous,2,NA,3
+25649,Weighted-mean L3 in tract uncinate fasciculus (right),Continuous,2,NA,3
+25650,Weighted-mean ICVF in tract acoustic radiation (left),Continuous,2,NA,3
+25651,Weighted-mean ICVF in tract acoustic radiation (right),Continuous,2,NA,3
+25652,Weighted-mean ICVF in tract anterior thalamic radiation (left),Continuous,2,NA,3
+25653,Weighted-mean ICVF in tract anterior thalamic radiation (right),Continuous,2,NA,3
+25654,Weighted-mean ICVF in tract cingulate gyrus part of cingulum (left),Continuous,2,NA,3
+25655,Weighted-mean ICVF in tract cingulate gyrus part of cingulum (right),Continuous,2,NA,3
+25656,Weighted-mean ICVF in tract parahippocampal part of cingulum (left),Continuous,2,NA,3
+25657,Weighted-mean ICVF in tract parahippocampal part of cingulum (right),Continuous,2,NA,3
+25658,Weighted-mean ICVF in tract corticospinal tract (left),Continuous,2,NA,3
+25659,Weighted-mean ICVF in tract corticospinal tract (right),Continuous,2,NA,3
+25660,Weighted-mean ICVF in tract forceps major,Continuous,2,NA,3
+25661,Weighted-mean ICVF in tract forceps minor,Continuous,2,NA,3
+25662,Weighted-mean ICVF in tract inferior fronto-occipital fasciculus (left),Continuous,2,NA,3
+25663,Weighted-mean ICVF in tract inferior fronto-occipital fasciculus (right),Continuous,2,NA,3
+25664,Weighted-mean ICVF in tract inferior longitudinal fasciculus (left),Continuous,2,NA,3
+25665,Weighted-mean ICVF in tract inferior longitudinal fasciculus (right),Continuous,2,NA,3
+25666,Weighted-mean ICVF in tract middle cerebellar peduncle,Continuous,2,NA,3
+25667,Weighted-mean ICVF in tract medial lemniscus (left),Continuous,2,NA,3
+25668,Weighted-mean ICVF in tract medial lemniscus (right),Continuous,2,NA,3
+25669,Weighted-mean ICVF in tract posterior thalamic radiation (left),Continuous,2,NA,3
+25670,Weighted-mean ICVF in tract posterior thalamic radiation (right),Continuous,2,NA,3
+25671,Weighted-mean ICVF in tract superior longitudinal fasciculus (left),Continuous,2,NA,3
+25672,Weighted-mean ICVF in tract superior longitudinal fasciculus (right),Continuous,2,NA,3
+25673,Weighted-mean ICVF in tract superior thalamic radiation (left),Continuous,2,NA,3
+25674,Weighted-mean ICVF in tract superior thalamic radiation (right),Continuous,2,NA,3
+25675,Weighted-mean ICVF in tract uncinate fasciculus (left),Continuous,2,NA,3
+25676,Weighted-mean ICVF in tract uncinate fasciculus (right),Continuous,2,NA,3
+25677,Weighted-mean OD in tract acoustic radiation (left),Continuous,2,NA,3
+25678,Weighted-mean OD in tract acoustic radiation (right),Continuous,2,NA,3
+25679,Weighted-mean OD in tract anterior thalamic radiation (left),Continuous,2,NA,3
+25680,Weighted-mean OD in tract anterior thalamic radiation (right),Continuous,2,NA,3
+25681,Weighted-mean OD in tract cingulate gyrus part of cingulum (left),Continuous,2,NA,3
+25682,Weighted-mean OD in tract cingulate gyrus part of cingulum (right),Continuous,2,NA,3
+25683,Weighted-mean OD in tract parahippocampal part of cingulum (left),Continuous,2,NA,3
+25684,Weighted-mean OD in tract parahippocampal part of cingulum (right),Continuous,2,NA,3
+25685,Weighted-mean OD in tract corticospinal tract (left),Continuous,2,NA,3
+25686,Weighted-mean OD in tract corticospinal tract (right),Continuous,2,NA,3
+25687,Weighted-mean OD in tract forceps major,Continuous,2,NA,3
+25688,Weighted-mean OD in tract forceps minor,Continuous,2,NA,3
+25689,Weighted-mean OD in tract inferior fronto-occipital fasciculus (left),Continuous,2,NA,3
+25690,Weighted-mean OD in tract inferior fronto-occipital fasciculus (right),Continuous,2,NA,3
+25691,Weighted-mean OD in tract inferior longitudinal fasciculus (left),Continuous,2,NA,3
+25692,Weighted-mean OD in tract inferior longitudinal fasciculus (right),Continuous,2,NA,3
+25693,Weighted-mean OD in tract middle cerebellar peduncle,Continuous,2,NA,3
+25694,Weighted-mean OD in tract medial lemniscus (left),Continuous,2,NA,3
+25695,Weighted-mean OD in tract medial lemniscus (right),Continuous,2,NA,3
+25696,Weighted-mean OD in tract posterior thalamic radiation (left),Continuous,2,NA,3
+25697,Weighted-mean OD in tract posterior thalamic radiation (right),Continuous,2,NA,3
+25698,Weighted-mean OD in tract superior longitudinal fasciculus (left),Continuous,2,NA,3
+25699,Weighted-mean OD in tract superior longitudinal fasciculus (right),Continuous,2,NA,3
+25700,Weighted-mean OD in tract superior thalamic radiation (left),Continuous,2,NA,3
+25701,Weighted-mean OD in tract superior thalamic radiation (right),Continuous,2,NA,3
+25702,Weighted-mean OD in tract uncinate fasciculus (left),Continuous,2,NA,3
+25703,Weighted-mean OD in tract uncinate fasciculus (right),Continuous,2,NA,3
+25704,Weighted-mean ISOVF in tract acoustic radiation (left),Continuous,2,NA,3
+25705,Weighted-mean ISOVF in tract acoustic radiation (right),Continuous,2,NA,3
+25706,Weighted-mean ISOVF in tract anterior thalamic radiation (left),Continuous,2,NA,3
+25707,Weighted-mean ISOVF in tract anterior thalamic radiation (right),Continuous,2,NA,3
+25708,Weighted-mean ISOVF in tract cingulate gyrus part of cingulum (left),Continuous,2,NA,3
+25709,Weighted-mean ISOVF in tract cingulate gyrus part of cingulum (right),Continuous,2,NA,3
+25710,Weighted-mean ISOVF in tract parahippocampal part of cingulum (left),Continuous,2,NA,3
+25711,Weighted-mean ISOVF in tract parahippocampal part of cingulum (right),Continuous,2,NA,3
+25712,Weighted-mean ISOVF in tract corticospinal tract (left),Continuous,2,NA,3
+25713,Weighted-mean ISOVF in tract corticospinal tract (right),Continuous,2,NA,3
+25714,Weighted-mean ISOVF in tract forceps major,Continuous,2,NA,3
+25715,Weighted-mean ISOVF in tract forceps minor,Continuous,2,NA,3
+25716,Weighted-mean ISOVF in tract inferior fronto-occipital fasciculus (left),Continuous,2,NA,3
+25717,Weighted-mean ISOVF in tract inferior fronto-occipital fasciculus (right),Continuous,2,NA,3
+25718,Weighted-mean ISOVF in tract inferior longitudinal fasciculus (left),Continuous,2,NA,3
+25719,Weighted-mean ISOVF in tract inferior longitudinal fasciculus (right),Continuous,2,NA,3
+25720,Weighted-mean ISOVF in tract middle cerebellar peduncle,Continuous,2,NA,3
+25721,Weighted-mean ISOVF in tract medial lemniscus (left),Continuous,2,NA,3
+25722,Weighted-mean ISOVF in tract medial lemniscus (right),Continuous,2,NA,3
+25723,Weighted-mean ISOVF in tract posterior thalamic radiation (left),Continuous,2,NA,3
+25724,Weighted-mean ISOVF in tract posterior thalamic radiation (right),Continuous,2,NA,3
+25725,Weighted-mean ISOVF in tract superior longitudinal fasciculus (left),Continuous,2,NA,3
+25726,Weighted-mean ISOVF in tract superior longitudinal fasciculus (right),Continuous,2,NA,3
+25727,Weighted-mean ISOVF in tract superior thalamic radiation (left),Continuous,2,NA,3
+25728,Weighted-mean ISOVF in tract superior thalamic radiation (right),Continuous,2,NA,3
+25729,Weighted-mean ISOVF in tract uncinate fasciculus (left),Continuous,2,NA,3
+25730,Weighted-mean ISOVF in tract uncinate fasciculus (right),Continuous,2,NA,3
+25731,Discrepancy between T1 brain image and standard-space brain template (linearly-aligned),Continuous,2,NA,3
+25732,Discrepancy between T1 brain image and standard-space brain template (nonlinearly-aligned),Continuous,2,NA,3
+25733,Amount of warping applied to non-linearly align T1 brain image to standard-space,Continuous,2,NA,3
+25734,Inverted signal-to-noise ratio in T1,Continuous,2,NA,3
+25735,Inverted contrast-to-noise ratio in T1,Continuous,2,NA,3
+25736,Discrepancy between T2 FLAIR brain image and T1 brain image,Continuous,2,NA,3
+25738,Discrepancy between SWI brain image and T1 brain image,Continuous,2,NA,3
+25739,Discrepancy between rfMRI brain image and T1 brain image,Continuous,2,NA,3
+25740,Discrepancy between tfMRI brain image and T1 brain image,Continuous,2,NA,3
+25742,"Mean tfMRI head motion, averaged across space and time points",Continuous,2,NA,3
+25743,Inverted temporal signal-to-noise ratio in pre-processed rfMRI,Continuous,2,NA,3
+25744,Inverted temporal signal-to-noise ratio in artefact-cleaned pre-processed rfMRI,Continuous,2,NA,3
+25746,Number of dMRI outlier slices detected and corrected,Integer,2,NA,3
+25761,90th percentile of BOLD effect (in group-defined mask) for shapes activation,Continuous,2,NA,3
+25762,90th percentile of z-statistic (in group-defined mask) for shapes activation,Continuous,2,NA,3
+25763,90th percentile of BOLD effect (in group-defined mask) for faces activation,Continuous,2,NA,3
+25764,90th percentile of z-statistic (in group-defined mask) for faces activation,Continuous,2,NA,3
+25765,90th percentile of BOLD effect (in group-defined mask) for faces-shapes contrast,Continuous,2,NA,3
+25766,90th percentile of z-statistic (in group-defined mask) for faces-shapes contrast,Continuous,2,NA,3
+25767,90th percentile of BOLD effect (in group-defined amygdala activation mask) for faces-shapes contrast,Continuous,2,NA,3
+25768,90th percentile of z-statistic (in group-defined amygdala activation mask) for faces-shapes contrast,Continuous,2,NA,3
+25781,Total volume of white matter hyperintensities (from T1 and T2_FLAIR images),Continuous,2,NA,3
+25782,Volume of grey matter in Frontal Pole (left),Continuous,2,NA,3
+25783,Volume of grey matter in Frontal Pole (right),Continuous,2,NA,3
+25784,Volume of grey matter in Insular Cortex (left),Continuous,2,NA,3
+25785,Volume of grey matter in Insular Cortex (right),Continuous,2,NA,3
+25786,Volume of grey matter in Superior Frontal Gyrus (left),Continuous,2,NA,3
+25787,Volume of grey matter in Superior Frontal Gyrus (right),Continuous,2,NA,3
+25788,Volume of grey matter in Middle Frontal Gyrus (left),Continuous,2,NA,3
+25789,Volume of grey matter in Middle Frontal Gyrus (right),Continuous,2,NA,3
+25790,"Volume of grey matter in Inferior Frontal Gyrus, pars triangularis (left)",Continuous,2,NA,3
+25791,"Volume of grey matter in Inferior Frontal Gyrus, pars triangularis (right)",Continuous,2,NA,3
+25792,"Volume of grey matter in Inferior Frontal Gyrus, pars opercularis (left)",Continuous,2,NA,3
+25793,"Volume of grey matter in Inferior Frontal Gyrus, pars opercularis (right)",Continuous,2,NA,3
+25794,Volume of grey matter in Precentral Gyrus (left),Continuous,2,NA,3
+25795,Volume of grey matter in Precentral Gyrus (right),Continuous,2,NA,3
+25796,Volume of grey matter in Temporal Pole (left),Continuous,2,NA,3
+25797,Volume of grey matter in Temporal Pole (right),Continuous,2,NA,3
+25798,"Volume of grey matter in Superior Temporal Gyrus, anterior division (left)",Continuous,2,NA,3
+25799,"Volume of grey matter in Superior Temporal Gyrus, anterior division (right)",Continuous,2,NA,3
+25800,"Volume of grey matter in Superior Temporal Gyrus, posterior division (left)",Continuous,2,NA,3
+25801,"Volume of grey matter in Superior Temporal Gyrus, posterior division (right)",Continuous,2,NA,3
+25802,"Volume of grey matter in Middle Temporal Gyrus, anterior division (left)",Continuous,2,NA,3
+25803,"Volume of grey matter in Middle Temporal Gyrus, anterior division (right)",Continuous,2,NA,3
+25804,"Volume of grey matter in Middle Temporal Gyrus, posterior division (left)",Continuous,2,NA,3
+25805,"Volume of grey matter in Middle Temporal Gyrus, posterior division (right)",Continuous,2,NA,3
+25806,"Volume of grey matter in Middle Temporal Gyrus, temporooccipital part (left)",Continuous,2,NA,3
+25807,"Volume of grey matter in Middle Temporal Gyrus, temporooccipital part (right)",Continuous,2,NA,3
+25808,"Volume of grey matter in Inferior Temporal Gyrus, anterior division (left)",Continuous,2,NA,3
+25809,"Volume of grey matter in Inferior Temporal Gyrus, anterior division (right)",Continuous,2,NA,3
+25810,"Volume of grey matter in Inferior Temporal Gyrus, posterior division (left)",Continuous,2,NA,3
+25811,"Volume of grey matter in Inferior Temporal Gyrus, posterior division (right)",Continuous,2,NA,3
+25812,"Volume of grey matter in Inferior Temporal Gyrus, temporooccipital part (left)",Continuous,2,NA,3
+25813,"Volume of grey matter in Inferior Temporal Gyrus, temporooccipital part (right)",Continuous,2,NA,3
+25814,Volume of grey matter in Postcentral Gyrus (left),Continuous,2,NA,3
+25815,Volume of grey matter in Postcentral Gyrus (right),Continuous,2,NA,3
+25816,Volume of grey matter in Superior Parietal Lobule (left),Continuous,2,NA,3
+25817,Volume of grey matter in Superior Parietal Lobule (right),Continuous,2,NA,3
+25818,"Volume of grey matter in Supramarginal Gyrus, anterior division (left)",Continuous,2,NA,3
+25819,"Volume of grey matter in Supramarginal Gyrus, anterior division (right)",Continuous,2,NA,3
+25820,"Volume of grey matter in Supramarginal Gyrus, posterior division (left)",Continuous,2,NA,3
+25821,"Volume of grey matter in Supramarginal Gyrus, posterior division (right)",Continuous,2,NA,3
+25822,Volume of grey matter in Angular Gyrus (left),Continuous,2,NA,3
+25823,Volume of grey matter in Angular Gyrus (right),Continuous,2,NA,3
+25824,"Volume of grey matter in Lateral Occipital Cortex, superior division (left)",Continuous,2,NA,3
+25825,"Volume of grey matter in Lateral Occipital Cortex, superior division (right)",Continuous,2,NA,3
+25826,"Volume of grey matter in Lateral Occipital Cortex, inferior division (left)",Continuous,2,NA,3
+25827,"Volume of grey matter in Lateral Occipital Cortex, inferior division (right)",Continuous,2,NA,3
+25828,Volume of grey matter in Intracalcarine Cortex (left),Continuous,2,NA,3
+25829,Volume of grey matter in Intracalcarine Cortex (right),Continuous,2,NA,3
+25830,Volume of grey matter in Frontal Medial Cortex (left),Continuous,2,NA,3
+25831,Volume of grey matter in Frontal Medial Cortex (right),Continuous,2,NA,3
+25832,Volume of grey matter in Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex) (left),Continuous,2,NA,3
+25833,Volume of grey matter in Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex) (right),Continuous,2,NA,3
+25834,Volume of grey matter in Subcallosal Cortex (left),Continuous,2,NA,3
+25835,Volume of grey matter in Subcallosal Cortex (right),Continuous,2,NA,3
+25836,Volume of grey matter in Paracingulate Gyrus (left),Continuous,2,NA,3
+25837,Volume of grey matter in Paracingulate Gyrus (right),Continuous,2,NA,3
+25838,"Volume of grey matter in Cingulate Gyrus, anterior division (left)",Continuous,2,NA,3
+25839,"Volume of grey matter in Cingulate Gyrus, anterior division (right)",Continuous,2,NA,3
+25840,"Volume of grey matter in Cingulate Gyrus, posterior division (left)",Continuous,2,NA,3
+25841,"Volume of grey matter in Cingulate Gyrus, posterior division (right)",Continuous,2,NA,3
+25842,Volume of grey matter in Precuneous Cortex (left),Continuous,2,NA,3
+25843,Volume of grey matter in Precuneous Cortex (right),Continuous,2,NA,3
+25844,Volume of grey matter in Cuneal Cortex (left),Continuous,2,NA,3
+25845,Volume of grey matter in Cuneal Cortex (right),Continuous,2,NA,3
+25846,Volume of grey matter in Frontal Orbital Cortex (left),Continuous,2,NA,3
+25847,Volume of grey matter in Frontal Orbital Cortex (right),Continuous,2,NA,3
+25848,"Volume of grey matter in Parahippocampal Gyrus, anterior division (left)",Continuous,2,NA,3
+25849,"Volume of grey matter in Parahippocampal Gyrus, anterior division (right)",Continuous,2,NA,3
+25850,"Volume of grey matter in Parahippocampal Gyrus, posterior division (left)",Continuous,2,NA,3
+25851,"Volume of grey matter in Parahippocampal Gyrus, posterior division (right)",Continuous,2,NA,3
+25852,Volume of grey matter in Lingual Gyrus (left),Continuous,2,NA,3
+25853,Volume of grey matter in Lingual Gyrus (right),Continuous,2,NA,3
+25854,"Volume of grey matter in Temporal Fusiform Cortex, anterior division (left)",Continuous,2,NA,3
+25855,"Volume of grey matter in Temporal Fusiform Cortex, anterior division (right)",Continuous,2,NA,3
+25856,"Volume of grey matter in Temporal Fusiform Cortex, posterior division (left)",Continuous,2,NA,3
+25857,"Volume of grey matter in Temporal Fusiform Cortex, posterior division (right)",Continuous,2,NA,3
+25858,Volume of grey matter in Temporal Occipital Fusiform Cortex (left),Continuous,2,NA,3
+25859,Volume of grey matter in Temporal Occipital Fusiform Cortex (right),Continuous,2,NA,3
+25860,Volume of grey matter in Occipital Fusiform Gyrus (left),Continuous,2,NA,3
+25861,Volume of grey matter in Occipital Fusiform Gyrus (right),Continuous,2,NA,3
+25862,Volume of grey matter in Frontal Operculum Cortex (left),Continuous,2,NA,3
+25863,Volume of grey matter in Frontal Operculum Cortex (right),Continuous,2,NA,3
+25864,Volume of grey matter in Central Opercular Cortex (left),Continuous,2,NA,3
+25865,Volume of grey matter in Central Opercular Cortex (right),Continuous,2,NA,3
+25866,Volume of grey matter in Parietal Operculum Cortex (left),Continuous,2,NA,3
+25867,Volume of grey matter in Parietal Operculum Cortex (right),Continuous,2,NA,3
+25868,Volume of grey matter in Planum Polare (left),Continuous,2,NA,3
+25869,Volume of grey matter in Planum Polare (right),Continuous,2,NA,3
+25870,Volume of grey matter in Heschl's Gyrus (includes H1 and H2) (left),Continuous,2,NA,3
+25871,Volume of grey matter in Heschl's Gyrus (includes H1 and H2) (right),Continuous,2,NA,3
+25872,Volume of grey matter in Planum Temporale (left),Continuous,2,NA,3
+25873,Volume of grey matter in Planum Temporale (right),Continuous,2,NA,3
+25874,Volume of grey matter in Supracalcarine Cortex (left),Continuous,2,NA,3
+25875,Volume of grey matter in Supracalcarine Cortex (right),Continuous,2,NA,3
+25876,Volume of grey matter in Occipital Pole (left),Continuous,2,NA,3
+25877,Volume of grey matter in Occipital Pole (right),Continuous,2,NA,3
+25878,Volume of grey matter in Thalamus (left),Continuous,2,NA,3
+25879,Volume of grey matter in Thalamus (right),Continuous,2,NA,3
+25880,Volume of grey matter in Caudate (left),Continuous,2,NA,3
+25881,Volume of grey matter in Caudate (right),Continuous,2,NA,3
+25882,Volume of grey matter in Putamen (left),Continuous,2,NA,3
+25883,Volume of grey matter in Putamen (right),Continuous,2,NA,3
+25884,Volume of grey matter in Pallidum (left),Continuous,2,NA,3
+25885,Volume of grey matter in Pallidum (right),Continuous,2,NA,3
+25886,Volume of grey matter in Hippocampus (left),Continuous,2,NA,3
+25887,Volume of grey matter in Hippocampus (right),Continuous,2,NA,3
+25888,Volume of grey matter in Amygdala (left),Continuous,2,NA,3
+25889,Volume of grey matter in Amygdala (right),Continuous,2,NA,3
+25890,Volume of grey matter in Ventral Striatum (left),Continuous,2,NA,3
+25891,Volume of grey matter in Ventral Striatum (right),Continuous,2,NA,3
+25892,Volume of grey matter in Brain-Stem,Continuous,2,NA,3
+25893,Volume of grey matter in I-IV Cerebellum (left),Continuous,2,NA,3
+25894,Volume of grey matter in I-IV Cerebellum (right),Continuous,2,NA,3
+25895,Volume of grey matter in V Cerebellum (left),Continuous,2,NA,3
+25896,Volume of grey matter in V Cerebellum (right),Continuous,2,NA,3
+25897,Volume of grey matter in VI Cerebellum (left),Continuous,2,NA,3
+25898,Volume of grey matter in VI Cerebellum (vermis),Continuous,2,NA,3
+25899,Volume of grey matter in VI Cerebellum (right),Continuous,2,NA,3
+25900,Volume of grey matter in Crus I Cerebellum (left),Continuous,2,NA,3
+25901,Volume of grey matter in Crus I Cerebellum (vermis),Continuous,2,NA,3
+25902,Volume of grey matter in Crus I Cerebellum (right),Continuous,2,NA,3
+25903,Volume of grey matter in Crus II Cerebellum (left),Continuous,2,NA,3
+25904,Volume of grey matter in Crus II Cerebellum (vermis),Continuous,2,NA,3
+25905,Volume of grey matter in Crus II Cerebellum (right),Continuous,2,NA,3
+25906,Volume of grey matter in VIIb Cerebellum (left),Continuous,2,NA,3
+25907,Volume of grey matter in VIIb Cerebellum (vermis),Continuous,2,NA,3
+25908,Volume of grey matter in VIIb Cerebellum (right),Continuous,2,NA,3
+25909,Volume of grey matter in VIIIa Cerebellum (left),Continuous,2,NA,3
+25910,Volume of grey matter in VIIIa Cerebellum (vermis),Continuous,2,NA,3
+25911,Volume of grey matter in VIIIa Cerebellum (right),Continuous,2,NA,3
+25912,Volume of grey matter in VIIIb Cerebellum (left),Continuous,2,NA,3
+25913,Volume of grey matter in VIIIb Cerebellum (vermis),Continuous,2,NA,3
+25914,Volume of grey matter in VIIIb Cerebellum (right),Continuous,2,NA,3
+25915,Volume of grey matter in IX Cerebellum (left),Continuous,2,NA,3
+25916,Volume of grey matter in IX Cerebellum (vermis),Continuous,2,NA,3
+25917,Volume of grey matter in IX Cerebellum (right),Continuous,2,NA,3
+25918,Volume of grey matter in X Cerebellum (left),Continuous,2,NA,3
+25919,Volume of grey matter in X Cerebellum (vermis),Continuous,2,NA,3
+25920,Volume of grey matter in X Cerebellum (right),Continuous,2,NA,3

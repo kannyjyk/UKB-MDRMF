@@ -1,0 +1,2 @@
+wget -qO- ftp://ftp.ncbi.nih.gov/snp/organisms/human_9606_b150_GRCh38p7/VCF/All_20170710.vcf.gz | gunzip -c | vcf2bed --sort-tmpdir=${PWD} --max-mem=16G - > ../../data/PRS/hg38.dbSNP150.bed
+wget -qO- ftp://ftp.ncbi.nih.gov/snp/organisms/human_9606_b150_GRCh37p13/VCF/All_20170710.vcf.gz | gunzip -c | vcf2bed --sort-tmpdir=${PWD} --max-mem=16G - > ../../data/PRS/hg19.dbSNP150.bed
