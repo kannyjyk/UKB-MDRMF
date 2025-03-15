@@ -1,4 +1,4 @@
-# UKB-MDRMF: A Multi-Disease Risk & Multimorbidity Framework Based on UK Biobank Data
+# UKB-MDRMF: A Multi-Disease Risk and Multimorbidity Framework Based on UK Biobank Data
 
 ## Overview
 
@@ -44,7 +44,7 @@ This repository is organized into five main parts:
 ### Installation
 Clone the repository to your local machine:
 ```sh
-git clone https://github.com/anonymous-researcher01/UKB-MDRMF.git
+git clone https://github.com/kannyjyk/UKB-MDRMF.git
 cd UKB-MDRMF
 ```
 
@@ -83,7 +83,7 @@ Conduct comparative analysis using the scripts in the `scripts/comparative_analy
 Generate figures in the manuscript using the scripts in the `scripts/plot` folder.
 
 ### Machine Learning Methods and Intermediate Results
-The parameters, weights, and intermediate results used for plotting are available on Zenodo. You can access them via the following link: [Model parameters and outcomes of "UKB-MDRMF: A Multi-Disease Risk & Multimorbidity Framework Based on UK Biobank Data"](https://zenodo.org/records/15027261).
+The parameters, weights, and intermediate results used for plotting are available on Zenodo. You can access them via the following link: [Model parameters and outcomes of "UKB-MDRMF: A Multi-Disease Risk and Multimorbidity Framework Based on UK Biobank Data"](https://zenodo.org/records/15027261).
 
 - **Data Preprocessing**: GPU is not required for preprocessing. On a machine with 64GB+ of RAM, the preprocessing step typically takes about one day to complete.
 - **Model Training**: If a GPU server is available, the entire model training process is expected to be completed within 2-3 days.
