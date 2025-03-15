@@ -2,7 +2,7 @@
 
 ## Overview
 
-UKB-MDRMF is a comprehensive framework for health risk prediction and multimorbidity assessment, leveraging multimodal data from the UK Biobank. By integrating diverse data types — including demographic, lifestyle, clinical measurements, environmental, genetic, and imaging data — UKB-MDRMF enables simultaneous risk prediction for 1,560 diseases. Unlike traditional single-disease models, this framework captures inter-disease connections, revealing shared and disease-specific risk factors. Through joint modeling of disease risk and multimorbidity mechanisms, UKB-MDRMF achieves superior predictive accuracy, with over 95.2% of 21 disease categories showing enhanced performance. This holistic approach provides a deeper understanding of health dynamics, supporting the discovery of novel disease associations and risk pathways.
+UKB-MDRMF is a comprehensive framework for health risk prediction and multimorbidity assessment, leveraging multimodal data from the UK Biobank. By integrating diverse data types — including demographic, lifestyle, clinical measurements, environmental, genetic, and imaging data — UKB-MDRMF enables simultaneous risk prediction for 1,560 diseases. Unlike traditional single-disease models, this framework captures inter-disease connections, revealing shared and disease-specific risk factors. Through joint modeling of disease risk and multimorbidity mechanisms, UKB-MDRMF achieves superior predictive accuracy. This holistic approach provides a deeper understanding of health dynamics, supporting the discovery of novel disease associations and risk pathways.
 
 ## Features
 - **Multi-Disease Prediction**: Predict risks for 1,560 diseases simultaneously.
