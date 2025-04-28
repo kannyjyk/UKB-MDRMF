@@ -87,7 +87,32 @@ The parameters, weights, and intermediate results used for plotting are availabl
 
 - **Data Preprocessing**: GPU is not required for preprocessing. On a machine with 64GB+ of RAM, the preprocessing step typically takes about one day to complete.
 - **Model Training**: If a GPU server is available, the entire model training process is expected to be completed within 2-3 days.
-   
+
+
+----
+## Publication
+
+This repository accompanies the study published in Nature Communications:
+
+> Jiang, Y., Zhao, B., Wang, X. et al. UKB-MDRMF: a multi-disease risk and multimorbidity framework based on UK Biobank data. Nature Communications 16, 3767 (2025).
+https://doi.org/10.1038/s41467-025-58724-3
+
+If you use this codebase or find it helpful in your research, please cite our paper:
+
+```
+@article{jiang2025ukb,
+  title={Ukb-mdrmf: a multi-disease risk and multimorbidity framework based on UK biobank data},
+  author={Jiang, Yukang and Zhao, Bingxin and Wang, Xiaopu and Tang, Borui and Peng, Huiyang and Luo, Zidan and Shen, Yue and Wang, Zheng and Jiang, Zhiwen and Wang, Jie and others},
+  journal={Nature Communications},
+  volume={16},
+  number={1},
+  pages={3767},
+  year={2025},
+  publisher={Nature Publishing Group UK London},
+  doi={10.1038/s41467-025-58724-3}
+}
+```
+
 ------
 ## Contributing
 We welcome contributions to improve UKB-MDRMF. Please follow these steps to contribute:
