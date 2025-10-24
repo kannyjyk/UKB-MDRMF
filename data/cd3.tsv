@@ -1,0 +1,82 @@
+coding	meaning	
+1001	lung cancer	C34.9
+1002	breast cancer	C50.9
+1003	skin cancer	C44.9
+1004	cancer of lip/mouth/pharynx/oral cavity	C00-C06, C09-C10, C12-C14
+1005	salivary gland cancer	C07-C08
+1006	larynx/throat cancer	C32.9
+1007	nasal cavity cancer	C30.0
+1008	ear cancer	C30.1
+1009	sinus cancer	C31.9
+1010	lip cancer	C00.0-C00.2
+1011	tongue cancer	C01
+1012	gum cancer	C03.0
+1015	parotid gland cancer	C07.0
+1016	other salivary gland cancer	C07.1-C07.9
+1017	oesophageal cancer	C15
+1018	stomach cancer	C16.9
+1019	small intestine/small bowel cancer	C17.9
+1020	large bowel cancer/colorectal cancer	C18-C21
+1021	anal cancer	C21.0
+1022	colon cancer/sigmoid cancer	C18-C19
+1023	rectal cancer	C20
+1024	liver/hepatocellular cancer	C22.0
+1025	gallbladder/bile duct cancer	C23-C24
+1026	pancreas cancer	C25.9
+1027	small cell lung cancer	C34.0
+1028	non-small cell lung cancer	C34.1
+1029	peripheral nerve/autonomic nerve cancer	C47.2
+1030	eye and/or adnexal cancer	C69.0-C69.9
+1031	meningeal cancer / malignant meningioma	C70.0-C70.9
+1032	brain cancer / primary malignant brain tumour	C71.0-C71.9
+1033	spinal cord or cranial nerve cancer	C72.0-C72.9
+1034	kidney/renal cell cancer	C64.9
+1035	bladder cancer	C67.9
+1036	other cancer of urinary tract	C68.9
+1037	female genital tract cancer	C51-C58
+1038	male genital tract cancer	C60-C63
+1039	ovarian cancer	C56.9
+1040	uterine/endometrial cancer	C54-C55
+1041	cervical cancer	C53
+1042	vaginal cancer	C52.9
+1043	vulval cancer	C51.0
+1044	prostate cancer	C61
+1045	testicular cancer	C62
+1046	penis cancer	C60.1
+1047	lymphoma	C81-C96
+1048	leukaemia	C91-C95
+1050	multiple myeloma	C90.0
+1051	myelofibrosis or myelodysplasia	D47.1-D47.5
+1052	hodgkins lymphoma / hodgkins disease	C81.9
+1053	non-hodgkins lymphoma	C82-C85, C88, C90
+1055	chronic lymphocytic	C91.1
+1056	chronic myeloid	C92.1
+1058	other haematological malignancy	C96.2-C96.9
+1059	malignant melanoma	C43.9
+1060	non-melanoma skin cancer	C44.0-C44.9
+1061	basal cell carcinoma	C44.0
+1062	squamous cell carcinoma	C44.1
+1063	primary bone cancer	C40-C41
+1064	mesothelioma	C45.0-C45.9
+1065	thyroid cancer	C73
+1066	parathyroid cancer	C75.0
+1067	adrenal cancer	C74.9
+1068	sarcoma/fibrosarcoma	C49.0-C49.9
+1070	malignant lymph node, unspecified	C77.9
+1071	metastatic cancer (unknown primary)	C80.1
+1072	cin/pre-cancer cells cervix	D06.0
+1073	rodent ulcer	C44.9
+1074	acute myeloid leukaemia	C92.0
+1075	retinoblastoma	C69.2
+1076	kaposis sarcoma	C46.0-C46.1
+1077	mouth cancer	C00-C08
+1078	tonsil cancer	C09.0-C09.9
+1079	oropharynx / oropharyngeal cancer	C09.0-C09.9, C10.0-C10.9
+1080	trachea cancer	C33.9
+1081	thymus cancer / malignant thymoma	C37
+1082	heart / mediastinum cancer	C38.0-C38.4
+1084	respiratory / intrathoracic cancer	C30.0-C39.9
+1085	bone metastases / bony secondaries	C79.5
+1086	appendix cancer	C18.1
+1087	fallopian tube cancer	C57.0
+1088	malignant insulinoma	C25.0

@@ -1,0 +1,1 @@
+plink2 --bfile ../../data/PRS/Field22418/chr1 --merge-list ../../data/PRS/Field22418/chrlist.txt --make-bed --out ../../data/PRS/Field22418/merged_chromosome
